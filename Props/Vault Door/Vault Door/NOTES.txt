@@ -1,0 +1,37 @@
+
+INSTRUCTIONS FOR SETTING THE VAULT.
+
+FORMAT NOTES.
+
+* 3ds Max - opens ready to go.
+* fbx - good topology, objects are not linked.
+* 3ds - good topology, objects are not linked.
+* obj - topology a bit weird (as it exported), objects are not linked.
+
+  Max Scene File.
+* 3ds max 2009 version.
+* All pivot points set.
+* All object links connected.
+* Animated yes door opening (0-100 frames).
+* Mental ray renderer.
+
+ How TO CONNECT OBJECT LINKS.
+
+OBJECT NAME                          LINK TO
+
+Door_main                            Main_Door_Hinge
+Turning_wheel01 and 02               Door_main
+Bollard 1,2 & 3                      Door_main
+Gears_&_Pins (Group)                 Door_main
+Glass (Group)                        Door_main
+
+For obj users, realign pivot points of Main_Door_Hinge and Door_main to their hinge counter parts.
+
+Basically if you just want to open the door... group all bolts, gears and pins together and link them to Door_main.
+Realign pivot points of Main_Door_Hinge and Door_main so that it opens and that Door_main can pivot from the front centre hinge.
+Bollard 1,2 & 3 need to link also to Door_main... but keep them seperated so you can animate them later.
+
+The model can actually be animated further to simulate extra mechanical function... 
+each gear and wheel can be rotated, each pin and bollard can be moved in and out of place.
+
+Thank you.

@@ -1,0 +1,783 @@
+Log file open, 11/25/14 13:05:14
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.4.0-2255576+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 13 2014 22:39:32
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.25-20.05.14:212][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.25-20.05.14:237][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.25-20.05.14:243][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.25-20.05.14:248][  0]LogInit: Object subsystem initialized
+[2014.11.25-20.05.14:250][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.25-20.05.14:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.25-20.05.14:256][  0]LogInit: Computer: LAB5-49
+[2014.11.25-20.05.14:256][  0]LogInit: User: ssharp
+[2014.11.25-20.05.14:257][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.25-20.05.14:257][  0]LogInit: High frequency timer resolution =3.320390 MHz
+[2014.11.25-20.05.14:257][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
+[2014.11.25-20.05.14:257][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.25-20.05.14:257][  0]LogMemory: Process Physical Memory: 61.69 MB used, 61.69 MB peak
+[2014.11.25-20.05.14:257][  0]LogMemory: Process Virtual Memory: 38.01 MB used, 38.01 MB peak
+[2014.11.25-20.05.14:257][  0]LogMemory: Physical Memory: 5950.29 MB used, 16350.83 MB total
+[2014.11.25-20.05.14:257][  0]LogMemory: Virtual Memory: 248.99 MB used, 8388608.00 MB total
+[2014.11.25-20.05.14:295][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.11.25-20.05.14:295][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2014.11.25-20.05.14:295][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.25-20.05.14:299][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2014.11.25-20.05.14:304][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.25-20.05.14:392][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.25-20.05.15:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-20.05.15:793][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-20.05.15:819][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.25-20.05.15:849][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.25-20.05.15:849][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.25-20.05.15:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnReal/cloudFactory/CloudFactory/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.25-20.05.15:849][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.25-20.05.15:862][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.25-20.05.15:873][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.25-20.05.15:984][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.25-20.05.15:984][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.25-20.05.16:205][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.25-20.05.16:691][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2334_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2d4_0///////STATCAT_Advanced////
+[2014.11.25-20.05.16:691][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.25-20.05.16:774][  0]SourceControl: Info Source control is disabled
+[2014.11.25-20.05.16:774][  0]SourceControl: Info Source control is disabled
+[2014.11.25-20.05.16:777][  0]SourceControl: Info Source control is disabled
+[2014.11.25-20.05.16:879][  0]BlueprintLog: New page: Editor Load
+[2014.11.25-20.05.16:937][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.25-20.05.16:937][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.25-20.05.17:059][  0]LogEngine: Initializing Engine...
+[2014.11.25-20.05.17:134][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.25-20.05.17:142][  0]LogInit: FAudioDevice initialized.
+[2014.11.25-20.05.17:152][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.25-20.05.17:171][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.25-20.05.17:175][  0]LogInit: Texture streaming: Enabled
+[2014.11.25-20.05.17:192][  0]LogInit: Transaction tracking system initialized
+[2014.11.25-20.05.17:256][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.11.25-20.05.17:580][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-20.05.17:825][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-20.05.17:896][  0]LogConsoleResponse:Display: 
+[2014.11.25-20.05.17:994][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_235c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2d4_0///////STATCAT_Advanced////
+[2014.11.25-20.05.17:994][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1d34_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2d4_0///////STATCAT_Advanced////
+[2014.11.25-20.05.17:994][  0]SourceControl: Info Source control is disabled
+[2014.11.25-20.05.17:994][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.11.25-20.05.17:994][  0]LightingResults: New page: Lighting Build
+[2014.11.25-20.05.17:999][  0]MapCheck: New page: Map Check
+[2014.11.25-20.05.17:999][  0]LightingResults: New page: Lighting Build
+[2014.11.25-20.05.18:009][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000113651C0
+[2014.11.25-20.05.18:130][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.25-20.05.18:130][  0]LogAIModule: Creating AISystem for world Template_Default
+[2014.11.25-20.05.18:130][  0]Cmd: MAP CHECKDEP
+[2014.11.25-20.05.18:130][  0]MapCheck: New page: Untitled_1 - Nov 25, 2014, 6:05:18 AM
+[2014.11.25-20.05.18:165][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [34.867ms] ==========
+[2014.11.25-20.05.18:165][  0]LogFileHelpers: Loading map 'Template_Default' took 0.171
+[2014.11.25-20.05.18:243][  0]LogCollectionManager: Loaded 0 collections in 0.000640 seconds
+[2014.11.25-20.05.18:296][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.25-20.05.18:342][  0]LogLoad: Full Startup: 4.66 seconds (BP compile: 0.04 seconds)
+[2014.11.25-20.05.18:352][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BuildingMats'
+[2014.11.25-20.05.18:497][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x896.
+[2014.11.25-20.05.18:572][  1]LogAssetRegistry: Asset discovery search completed in 1.3261 seconds
+[2014.11.25-20.05.27:432][312]Cmd: MAP LOAD FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/Maps/barracks_layout_for_mocap002.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.25-20.05.27:433][312]LightingResults: New page: Lighting Build
+[2014.11.25-20.05.27:450][312]LoadErrors: New page: Loading map: barracks_layout_for_mocap002.umap
+[2014.11.25-20.05.27:450][312]MapCheck: New page: Map Check
+[2014.11.25-20.05.27:450][312]LightingResults: New page: Lighting Build
+[2014.11.25-20.05.27:472][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A6AC0E0
+[2014.11.25-20.05.27:537][312]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.25-20.05.27:537][312]LogAIModule: Creating AISystem for world barracks_layout_for_mocap002
+[2014.11.25-20.05.27:552][312]Cmd: MAP CHECKDEP
+[2014.11.25-20.05.27:552][312]MapCheck: New page: barracks_layout_for_mocap002 - Nov 25, 2014, 6:05:27 AM
+[2014.11.25-20.05.27:588][312]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [35.968ms] ==========
+[2014.11.25-20.05.27:588][312]LogFileHelpers: Loading map 'barracks_layout_for_mocap002' took 0.156
+[2014.11.25-20.08.08:746][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.11.25-20.08.20:762][554]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/randomprops/BunkHouse_Stairs.fbx)
+[2014.11.25-20.08.20:850][554]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.11.25-20.08.20:850][554]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.11.25-20.08.20:850][554]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.11.25-20.08.20:850][554]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.11.25-20.08.20:850][554]LogFbx: ItemName: Material, ItemCount : 4
+[2014.11.25-20.08.20:850][554]LogFbx: ItemName: Model, ItemCount : 1
+[2014.11.25-20.08.22:156][554]LogFbx: Loading FBX Scene from F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/randomprops/BunkHouse_Stairs.fbx
+[2014.11.25-20.08.22:378][554]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-20.08.22:451][554]LogFbx:Warning: Triangulating static mesh polySurface1
+[2014.11.25-20.08.24:394][554]LogFbx: == Initial material list:
+[2014.11.25-20.08.24:394][554]LogFbx: 0: stairs:Default1
+[2014.11.25-20.08.24:394][554]LogFbx: 1: stairs:chrome_2
+[2014.11.25-20.08.24:394][554]LogFbx: 2: stairs:Wood_St1
+[2014.11.25-20.08.24:394][554]LogFbx: 3: stairs:Metal_St1
+[2014.11.25-20.08.24:394][554]LogFbx: == After sorting:
+[2014.11.25-20.08.24:394][554]LogFbx: 0: stairs:Default1
+[2014.11.25-20.08.24:394][554]LogFbx: 1: stairs:chrome_2
+[2014.11.25-20.08.24:394][554]LogFbx: 2: stairs:Wood_St1
+[2014.11.25-20.08.24:394][554]LogFbx: 3: stairs:Metal_St1
+[2014.11.25-20.08.24:394][554]LogFbx: == Mapping table:
+[2014.11.25-20.08.24:394][554]LogFbx:   sort 0 -> 0
+[2014.11.25-20.08.24:394][554]LogFbx:   sort 1 -> 1
+[2014.11.25-20.08.24:394][554]LogFbx:   sort 2 -> 2
+[2014.11.25-20.08.24:394][554]LogFbx:   sort 3 -> 3
+[2014.11.25-20.08.24:406][554]LogStaticMesh: Building static mesh BunkHouse_Stairs...
+[2014.11.25-20.08.25:335][554]LogStaticMesh: Built static mesh [929.501343ms] /Game/BuildingMats/BunkHouse_Stairs.BunkHouse_Stairs
+[2014.11.25-20.08.25:439][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.25-20.08.25:439][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BuildingMats'
+[2014.11.25-20.08.28:179][680]LogActorFactory: Actor Factory created BunkHouse_Stairs
+[2014.11.25-20.08.28:850][715]LogActorFactory: Actor Factory created BunkHouse_Stairs
+[2014.11.25-20.08.29:683][757]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.08.29:683][757]Aligned camera to fit all selected actors.
+[2014.11.25-20.09.00:351][284]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.09.00:351][284]Aligned camera to fit all selected actors.
+[2014.11.25-20.09.03:978][461]Cmd: DELETE
+[2014.11.25-20.09.03:978][461]Cmd: ACTOR DELETE
+[2014.11.25-20.09.03:980][461]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-20.09.03:998][461]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2014.11.25-20.09.04:210][473]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.09.04:210][473]Can't find target actor.
+[2014.11.25-20.09.06:270][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BunkHouse_Stairs)
+[2014.11.25-20.09.06:719][601]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.09.06:719][601]Aligned camera to fit all selected actors.
+[2014.11.25-20.09.12:062][869]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.09.12:062][869]Aligned camera to fit all selected actors.
+[2014.11.25-20.09.24:783][522]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.09.24:783][522]Aligned camera to fit all selected actors.
+[2014.11.25-20.09.53:814][950]Cmd: DELETE
+[2014.11.25-20.09.53:814][950]Cmd: ACTOR DELETE
+[2014.11.25-20.09.53:817][950]LogEditorActor: Deleted Actor: Brush
+[2014.11.25-20.09.53:853][950]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.11.25-20.09.57:472][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BunkHouse_Stairs)
+[2014.11.25-20.09.57:783][144]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.09.57:783][144]Aligned camera to fit all selected actors.
+[2014.11.25-20.10.26:273][201]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/randomprops/Factory Interior/Stairs1/stone_004.jpg)
+[2014.11.25-20.10.26:319][201]0.000029 seconds to analyze Texture2D /Game/BuildingMats/stone_004.stone_004
+
+[2014.11.25-20.10.26:321][201]LogTexture:Display: Building textures: stone_004 (AutoDXT)
+[2014.11.25-20.10.27:351][201]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.25-20.10.27:351][201]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BuildingMats'
+[2014.11.25-20.10.32:967][571]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BuildingMats'
+[2014.11.25-20.10.41:455][858]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.10.41:475][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.25-20.10.41:514][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.25-20.10.41:514][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.25-20.10.41:514][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.11.25-20.10.41:514][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.25-20.10.41:515][858]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.10.42:761][891]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.11.25-20.10.42:761][891]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.25-20.10.42:761][891]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.25-20.10.44:311][  9]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.10.44:313][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.25-20.10.44:338][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.25-20.10.44:928][ 32]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.11.25-20.10.44:928][ 32]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.25-20.10.44:928][ 32]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.25-20.10.45:774][ 91]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.10.45:803][ 91]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.25-20.10.46:403][115]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.10.46:403][115]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.10.46:403][115]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.10.56:876][625]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.10.57:500][651]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.10.57:500][651]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.10.57:500][651]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.10.57:550][655]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.10.58:162][680]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.10.58:162][680]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.10.58:162][680]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.11.00:548][893]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.11.01:153][917]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.11.01:153][917]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.11.01:153][917]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.11.02:609][ 24]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.11.03:249][ 49]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.11.25-20.11.03:249][ 49]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.11.03:249][ 49]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.11.09:781][353]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.11.10:369][376]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.11.10:369][376]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.11.10:369][376]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.11.11:004][400]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.11.11:588][424]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.11.11:588][424]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.11.11:588][424]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.11.13:895][515]LogMaterialEditor: Saving and Compiling material StairsMat
+[2014.11.25-20.11.14:159][515]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.25-20.11.14:219][515]LogMaterial: Missing cached shader map for material StairsMat, compiling.
+[2014.11.25-20.11.14:226][515]LogMaterial: Missing cached shader map for material StairsMat, compiling.
+[2014.11.25-20.11.14:233][515]LogMaterial: 0.003836 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.25-20.11.15:541][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/StairsMat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/StairsMat.uasset" SILENT=true
+[2014.11.25-20.11.15:656][515]LogSavePackage: Save=111.072792ms
+[2014.11.25-20.11.15:656][515]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/StairsMat486969B941E9E3C0EAC35C84B0E99540.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/StairsMat.uasset'
+[2014.11.25-20.12.19:012][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BunkHouse_Stairs)
+[2014.11.25-20.12.44:826][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.11.25-20.12.46:709][458]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.12.46:710][458]Aligned camera to fit all selected actors.
+[2014.11.25-20.13.17:076][970]MapCheck: New page: Map Check
+[2014.11.25-20.13.17:118][970]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.25-20.13.17:118][970]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.25-20.13.17:174][970]LightingResults: New page: Lighting Build - Nov 25, 2014, 6:13:17 AM
+[2014.11.25-20.13.21:756][970]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.25-20.13.21:779][970]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.25-20.13.21:779][970]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.25-20.13.21:779][970]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.25-20.13.21:779][970]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.25-20.13.21:779][970]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.25-20.13.22:077][970]LogEditorBuildUtils: Build time 0:00:04
+[2014.11.25-20.13.22:080][970]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer floors, compiling.
+[2014.11.25-20.13.22:081][970]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer floors, compiling.
+[2014.11.25-20.13.22:082][970]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer floors, compiling.
+[2014.11.25-20.13.22:166][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bedsMat, compiling.
+[2014.11.25-20.13.22:167][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bedsMat, compiling.
+[2014.11.25-20.13.22:168][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bedsMat, compiling.
+[2014.11.25-20.13.22:170][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer kidDesk_mat, compiling.
+[2014.11.25-20.13.22:171][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer kidDesk_mat, compiling.
+[2014.11.25-20.13.22:172][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer kidDesk_mat, compiling.
+[2014.11.25-20.13.22:221][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairsMat, compiling.
+[2014.11.25-20.13.22:222][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairsMat, compiling.
+[2014.11.25-20.13.22:223][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairsMat, compiling.
+[2014.11.25-20.13.22:225][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wallsMat, compiling.
+[2014.11.25-20.13.22:226][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wallsMat, compiling.
+[2014.11.25-20.13.22:227][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wallsMat, compiling.
+[2014.11.25-20.13.24:214][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BF38400
+[2014.11.25-20.13.34:668][467]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:668][467]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:710][469]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:710][469]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:710][469]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:710][469]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:732][470]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:752][471]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:778][472]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:778][472]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:795][473]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:795][473]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:837][475]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:837][475]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:901][476]LightingResults:Error: Error kidDesk Object has overlapping UVs.
+[2014.11.25-20.13.34:901][476]LightingResults: Info kidDesk Lightmap UV are overlapping by 77.7%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.34:967][480]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.34:968][480]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.35:006][482]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.35:006][482]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.35:027][483]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.35:048][484]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.35:091][486]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.35:091][486]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.35:133][488]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.13.35:133][488]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.36:750][564]LightingResults:Error: Error BunkHouse_Stairs Object has overlapping UVs.
+[2014.11.25-20.13.36:750][564]LightingResults: Info BunkHouse_Stairs Lightmap UV are overlapping by 99.5%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.13.36:804][567]Job is a success!
+[2014.11.25-20.13.37:323][568]LogMaterial:Warning: Material /Game/desks/kidDesk_mat.kidDesk_mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.25-20.13.37:324][568]LogMaterial: Missing cached shader map for material kidDesk_mat, compiling.
+[2014.11.25-20.13.37:340][568]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.25-20.13.37:340][568]LogMaterial:Warning: Material /Game/BuildingMats/StairsMat.StairsMat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.25-20.13.37:341][568]LogMaterial: Missing cached shader map for material StairsMat, compiling.
+[2014.11.25-20.13.37:344][568]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.25-20.13.37:344][568]LogMaterial:Warning: Material /Game/BuildingMats/wallsMat.wallsMat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.25-20.13.37:345][568]LogMaterial: Missing cached shader map for material wallsMat, compiling.
+[2014.11.25-20.13.37:396][568]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.25-20.13.37:737][568]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2014.11.25-20.13.38:062][568]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.25-20.13.38:082][568]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.25-20.13.38:095][568]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2014.11.25-20.13.38:110][568]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.25-20.13.38:119][568]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.11.25-20.13.38:130][568]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2014.11.25-20.13.38:141][568]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.25-20.13.38:154][568]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.25-20.13.38:174][568]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2014.11.25-20.13.38:187][568]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.25-20.13.38:195][568]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.25-20.13.38:208][568]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2014.11.25-20.13.38:220][568]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.11.25-20.13.38:232][568]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.11.25-20.13.38:250][568]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2014.11.25-20.13.38:264][568]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.25-20.13.38:280][568]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.11.25-20.13.38:303][568]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2014.11.25-20.13.38:322][568]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.25-20.13.38:420][568]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.25-20.13.38:668][568]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2014.11.25-20.13.38:794][568]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.25-20.13.38:956][568]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.25-20.13.39:429][568]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2014.11.25-20.13.39:668][568]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.25-20.13.39:856][568]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.25-20.13.41:068][568]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.11.25-20.13.41:298][568]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.11.25-20.13.41:328][568]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.11.25-20.13.41:334][568]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.11.25-20.13.41:338][568]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.11.25-20.13.41:343][568]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.11.25-20.13.41:346][568]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.11.25-20.13.41:350][568]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.11.25-20.13.41:384][568]Lightmass on LAB5-49: 16.8 sec total, 146 ms importing, 76 ms setup, 3.16 sec photons, 13.4 sec processing, 0 ms extra exporting [202/202 mappings]. Threads: 2:00 min total, 58.9 sec processing.
+[2014.11.25-20.13.41:415][568]LogStaticLightingSystem:Warning: Illumination: 24.1 sec (3.95 sec encoding lightmaps)
+[2014.11.25-20.13.41:415][568]LogStaticLightingSystem: Lightmap texture memory:  4.2 MB (0.2 MB streaming, 4.0 MB non-streaming), 18 textures
+[2014.11.25-20.13.41:415][568]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2014.11.25-20.13.41:766][569]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.25-20.13.41:766][569]MapCheck: New page: barracks_layout_for_mocap002 - Nov 25, 2014, 6:13:41 AM
+[2014.11.25-20.13.41:785][569]MapCheck:Warning: Performance Warning bossTestRigged_3 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2014.11.25-20.13.41:786][569]MapCheck:Warning: Warning bossTestRigged_3 bossTestRigged_3 : Skeletal mesh actor has NULL SkeletalMesh property 
+[2014.11.25-20.13.41:826][569]MapCheck: Info ========== Map Check: 0 Error(s), 2 Warning(s), [59.672ms] ==========
+[2014.11.25-20.14.16:217][513]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight1)
+[2014.11.25-20.14.20:887][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kidDesk)
+[2014.11.25-20.14.21:395][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.14.21:395][786]Aligned camera to fit all selected actors.
+[2014.11.25-20.15.28:581][283]LogSavePackage: Save=762.507690ms
+[2014.11.25-20.15.28:582][283]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/barracks_layout_for_mocap002_Auto1634C8FD642399C47C6C881A55916680D.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/Maps/barracks_layout_for_mocap002_Auto1.umap'
+[2014.11.25-20.15.28:593][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/barracks_layout_for_mocap002' took 0.918
+[2014.11.25-20.15.28:593][283]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.918
+[2014.11.25-20.15.28:604][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingMats/wallsMat] ([1] browsable assets)...
+[2014.11.25-20.15.28:639][283]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingMats/wallsMat.wallsMat]
+[2014.11.25-20.15.28:639][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingMats/wallsMat]
+[2014.11.25-20.15.28:643][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/wallsMat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/wallsMat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-20.15.29:038][283]LogSavePackage: Save=358.760254ms
+[2014.11.25-20.15.29:039][283]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/wallsMat_Auto1F598453F4C41E6F32298589EBA96A34E.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/wallsMat_Auto1.uasset'
+[2014.11.25-20.15.29:056][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/desks/kidDesk_mat] ([1] browsable assets)...
+[2014.11.25-20.15.29:088][283]OBJ SavePackage:     Rendered thumbnail for [Material /Game/desks/kidDesk_mat.kidDesk_mat]
+[2014.11.25-20.15.29:088][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/desks/kidDesk_mat]
+[2014.11.25-20.15.29:092][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/desks/kidDesk_mat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/desks/kidDesk_mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-20.15.29:347][283]LogSavePackage: Save=199.622040ms
+[2014.11.25-20.15.29:347][283]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/kidDesk_mat_Auto1916233BF4ADEC48BC139B9B6491EB730.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/desks/kidDesk_mat_Auto1.uasset'
+[2014.11.25-20.15.29:365][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingMats/BunkHouse_Stairs] ([1] browsable assets)...
+[2014.11.25-20.15.29:386][283]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingMats/BunkHouse_Stairs.BunkHouse_Stairs]
+[2014.11.25-20.15.29:386][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingMats/BunkHouse_Stairs]
+[2014.11.25-20.15.29:790][283]LogSavePackage: Save=370.395355ms
+[2014.11.25-20.15.29:791][283]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/BunkHouse_Stairs_Auto129E97DEA4CA7736095976BBD95EA3BD8.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/BunkHouse_Stairs_Auto1.uasset'
+[2014.11.25-20.15.29:807][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingMats/stone_004] ([1] browsable assets)...
+[2014.11.25-20.15.29:828][283]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BuildingMats/stone_004.stone_004]
+[2014.11.25-20.15.29:828][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingMats/stone_004]
+[2014.11.25-20.15.29:831][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/stone_004" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/stone_004_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-20.15.30:646][283]LogSavePackage: Save=793.629639ms
+[2014.11.25-20.15.30:648][283]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/stone_004_Auto1E5AAC400405FA5E0F91F269607B8520A.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/stone_004_Auto1.uasset'
+[2014.11.25-20.15.30:663][283]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingMats/StairsMat] ([1] browsable assets)...
+[2014.11.25-20.15.30:670][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingMats/StairsMat]
+[2014.11.25-20.15.30:673][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/StairsMat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/StairsMat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-20.15.30:724][283]LogSavePackage: Save=17.098894ms
+[2014.11.25-20.15.30:724][283]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/StairsMat_Auto14352B29149A3D66CC0FD50B4F8A896D7.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/BuildingMats/StairsMat_Auto1.uasset'
+[2014.11.25-20.15.30:729][283]LogFileHelpers: Auto-saving content packages took 2.135
+[2014.11.25-20.32.16:592][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kidDesk)
+[2014.11.25-20.32.20:816][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Beds'
+[2014.11.25-20.32.28:811][299]LogEditorFactories: Performing atomic reimport of [F:/UnReal/cloudFactory/CloudFactory/Props/Static_Props/beds.fbx]
+[2014.11.25-20.32.28:852][299]LogFbx: Loading FBX Scene from F:/UnReal/cloudFactory/CloudFactory/Props/Static_Props/beds.fbx
+[2014.11.25-20.32.29:471][299]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-20.32.29:480][299]LogFbx:Warning: Triangulating static mesh polySurface17
+[2014.11.25-20.32.29:742][299]LogFbx: == Initial material list:
+[2014.11.25-20.32.29:742][299]LogFbx: 0: lambert2
+[2014.11.25-20.32.29:742][299]LogFbx: == After sorting:
+[2014.11.25-20.32.29:742][299]LogFbx: 0: lambert2
+[2014.11.25-20.32.29:742][299]LogFbx: == Mapping table:
+[2014.11.25-20.32.29:742][299]LogFbx:   sort 0 -> 0
+[2014.11.25-20.32.29:766][299]LogStaticMesh: Building static mesh beds...
+[2014.11.25-20.32.29:797][299]LogStaticMesh: Built static mesh [32.198929ms] /Game/Beds/beds.beds
+[2014.11.25-20.32.29:810][299]LogEditorFactories: -- imported successfully
+[2014.11.25-20.32.31:718][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (beds_7)
+[2014.11.25-20.32.45:262][ 47]LogSavePackage: Save=717.933716ms
+[2014.11.25-20.32.45:262][ 47]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/barracks_layout_for_mocap002_Auto23AF1225D4FDA5C6D80C097BEC3A68B5F.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/Maps/barracks_layout_for_mocap002_Auto2.umap'
+[2014.11.25-20.32.45:269][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/barracks_layout_for_mocap002' took 0.870
+[2014.11.25-20.32.45:269][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.870
+[2014.11.25-20.32.45:280][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Beds/beds] ([1] browsable assets)...
+[2014.11.25-20.32.45:315][ 47]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Beds/beds.beds]
+[2014.11.25-20.32.45:315][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/Beds/beds]
+[2014.11.25-20.32.45:318][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Beds/beds" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/Beds/beds_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-20.32.45:664][ 47]LogSavePackage: Save=299.110352ms
+[2014.11.25-20.32.45:664][ 47]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/beds_Auto27D7FAC1443EC2A4E590D02969F88F6F8.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/Autosaves/Game/Beds/beds_Auto2.uasset'
+[2014.11.25-20.32.45:669][ 47]LogFileHelpers: Auto-saving content packages took 0.401
+[2014.11.25-20.32.46:224][ 69]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/desks'
+[2014.11.25-20.32.50:266][443]LogEditorFactories: Performing atomic reimport of [F:/UnReal/cloudFactory/CloudFactory/Props/Static_Props/kidDesk.fbx]
+[2014.11.25-20.32.50:302][443]LogFbx: Loading FBX Scene from F:/UnReal/cloudFactory/CloudFactory/Props/Static_Props/kidDesk.fbx
+[2014.11.25-20.32.50:453][443]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-20.32.50:461][443]LogFbx:Warning: Triangulating static mesh polySurface106
+[2014.11.25-20.32.50:672][443]LogFbx: == Initial material list:
+[2014.11.25-20.32.50:672][443]LogFbx: 0: lambert2
+[2014.11.25-20.32.50:672][443]LogFbx: == After sorting:
+[2014.11.25-20.32.50:672][443]LogFbx: 0: lambert2
+[2014.11.25-20.32.50:672][443]LogFbx: == Mapping table:
+[2014.11.25-20.32.50:672][443]LogFbx:   sort 0 -> 0
+[2014.11.25-20.32.50:732][443]LogStaticMesh: Building static mesh kidDesk...
+[2014.11.25-20.32.50:754][443]LogStaticMesh: Built static mesh [22.678059ms] /Game/desks/kidDesk.kidDesk
+[2014.11.25-20.32.50:764][443]LogEditorFactories: -- imported successfully
+[2014.11.25-20.33.03:211][ 86]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Beds'
+[2014.11.25-20.33.04:056][116]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BuildingMats'
+[2014.11.25-20.33.06:460][208]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/desks'
+[2014.11.25-20.33.22:897][477]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:/UnReal/cloudFactory/CloudFactory/Props/Static_Props/stool001.fbx)
+[2014.11.25-20.33.22:911][477]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.11.25-20.33.22:911][477]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.11.25-20.33.22:911][477]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.11.25-20.33.22:911][477]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.11.25-20.33.22:911][477]LogFbx: ItemName: Material, ItemCount : 1
+[2014.11.25-20.33.22:911][477]LogFbx: ItemName: Model, ItemCount : 1
+[2014.11.25-20.33.24:604][477]LogFbx: Loading FBX Scene from F:/UnReal/cloudFactory/CloudFactory/Props/Static_Props/stool001.fbx
+[2014.11.25-20.33.24:634][477]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-20.33.24:637][477]LogFbx:Warning: Triangulating static mesh polySurface4
+[2014.11.25-20.33.24:879][477]LogFbx: == Initial material list:
+[2014.11.25-20.33.24:879][477]LogFbx: 0: lambert1
+[2014.11.25-20.33.24:879][477]LogFbx: == After sorting:
+[2014.11.25-20.33.24:879][477]LogFbx: 0: lambert1
+[2014.11.25-20.33.24:879][477]LogFbx: == Mapping table:
+[2014.11.25-20.33.24:879][477]LogFbx:   sort 0 -> 0
+[2014.11.25-20.33.24:881][477]LogStaticMesh: Building static mesh stool001...
+[2014.11.25-20.33.24:910][477]LogStaticMesh: Built static mesh [29.532976ms] /Game/desks/stool001.stool001
+[2014.11.25-20.33.24:932][477]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.25-20.33.24:932][477]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/desks'
+[2014.11.25-20.33.27:115][571]LogActorFactory: Actor Factory created stool001
+[2014.11.25-20.33.30:299][729]LogActorFactory: Actor Factory created stool001
+[2014.11.25-20.33.46:051][508]Cmd: DELETE
+[2014.11.25-20.33.46:051][508]Cmd: ACTOR DELETE
+[2014.11.25-20.33.46:053][508]LogEditorActor: Deleted Actor: Brush
+[2014.11.25-20.33.46:094][508]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.11.25-20.33.46:984][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stool001)
+[2014.11.25-20.33.51:422][767]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.33.51:422][767]Aligned camera to fit all selected actors.
+[2014.11.25-20.34.01:696][285]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.34.01:696][285]Aligned camera to fit all selected actors.
+[2014.11.25-20.34.10:526][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.11.25-20.34.12:452][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kidDesk)
+[2014.11.25-20.34.13:310][863]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.34.13:310][863]Aligned camera to fit all selected actors.
+[2014.11.25-20.34.21:914][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BunkHouse_Stairs)
+[2014.11.25-20.34.30:651][668]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.25-20.34.31:517][719]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/desks'
+[2014.11.25-20.34.31:928][738]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2014.11.25-20.34.32:297][762]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Beds'
+[2014.11.25-20.34.33:029][789]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BuildingMats'
+[2014.11.25-20.34.37:402][993]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.25-20.34.37:407][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.11.25-20.34.37:822][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.11.25-20.34.37:822][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.11.25-20.34.37:823][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.11.25-20.34.37:823][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.11.25-20.34.37:824][993]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.25-20.34.37:851][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.11.25-20.34.39:185][ 46]MaterialEditorStats: Info Base pass shader with static lighting: 99 instructions
+[2014.11.25-20.34.39:185][ 46]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.11.25-20.34.39:185][ 46]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.11.25-20.34.39:185][ 46]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.11.25-20.34.40:342][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.25-20.34.41:092][128]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2014.11.25-20.34.41:092][128]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.11.25-20.34.41:092][128]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.25-20.34.41:092][128]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.25-20.34.43:690][239]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.25-20.34.43:692][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.11.25-20.34.44:352][268]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2014.11.25-20.34.44:352][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.11.25-20.34.44:352][268]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.25-20.34.44:352][268]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.25-20.34.47:749][505]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.25-20.34.47:776][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.11.25-20.34.48:471][535]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2014.11.25-20.34.48:471][535]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.11.25-20.34.48:471][535]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.11.25-20.34.48:471][535]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.11.25-20.34.50:743][632]LogMaterialEditor: Saving and Compiling material StairsMat
+[2014.11.25-20.34.51:008][632]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.11.25-20.34.51:092][632]LogMaterial: Missing cached shader map for material StairsMat, compiling.
+[2014.11.25-20.34.51:107][632]LogMaterial: Missing cached shader map for material StairsMat, compiling.
+[2014.11.25-20.34.51:113][632]LogMaterial: 0.002313 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.25-20.34.52:716][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/StairsMat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/StairsMat.uasset" SILENT=true
+[2014.11.25-20.34.52:985][632]LogSavePackage: Save=242.759140ms
+[2014.11.25-20.34.52:985][632]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/StairsMat77A41D2D4F84AC7C7507CD98353B9C27.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/StairsMat.uasset'
+[2014.11.25-20.35.08:285][566]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.35.08:285][566]Aligned camera to fit all selected actors.
+[2014.11.25-20.35.44:496][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stool001)
+[2014.11.25-20.35.45:232][478]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.25-20.35.45:232][478]Aligned camera to fit all selected actors.
+[2014.11.25-20.35.47:956][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (kidDesk)
+[2014.11.25-20.36.17:411][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.11.25-20.36.17:913][174]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight1)
+[2014.11.25-20.36.26:474][598]MapCheck: New page: Map Check
+[2014.11.25-20.36.26:534][598]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.25-20.36.26:535][598]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.25-20.36.26:591][598]LightingResults: New page: Lighting Build - Nov 25, 2014, 6:36:26 AM
+[2014.11.25-20.36.31:632][598]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.25-20.36.31:655][598]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.25-20.36.31:655][598]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.25-20.36.31:655][598]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.25-20.36.31:655][598]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.25-20.36.31:655][598]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.25-20.36.31:852][598]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.25-20.36.31:858][598]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairsMat, compiling.
+[2014.11.25-20.36.31:860][598]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairsMat, compiling.
+[2014.11.25-20.36.31:861][598]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairsMat, compiling.
+[2014.11.25-20.36.33:053][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C696660
+[2014.11.25-20.36.43:405][109]LightingResults:Error: Error kidDesk Object has overlapping UVs.
+[2014.11.25-20.36.43:405][109]LightingResults: Info kidDesk Lightmap UV are overlapping by 77.7%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:465][112]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:465][112]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:465][112]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:466][112]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:486][113]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:486][113]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:526][115]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:526][115]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:587][118]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:587][118]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:607][119]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:607][119]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:667][122]LightingResults:Error: Error stool001 Object has overlapping UVs.
+[2014.11.25-20.36.43:667][122]LightingResults: Info stool001 Lightmap UV are overlapping by 70.9%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:708][124]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:708][124]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:768][127]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:768][127]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:789][128]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:789][128]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:789][128]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:789][128]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:849][131]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:870][132]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.43:990][138]LightingResults:Error: Error beds Object has overlapping UVs.
+[2014.11.25-20.36.43:990][138]LightingResults: Info beds Lightmap UV are overlapping by 64.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.45:575][216]LightingResults:Error: Error BunkHouse_Stairs Object has overlapping UVs.
+[2014.11.25-20.36.45:575][216]LightingResults: Info BunkHouse_Stairs Lightmap UV are overlapping by 99.5%. Please adjust content - Enable Error Coloring to visualize.
+[2014.11.25-20.36.45:582][217]Job is a success!
+[2014.11.25-20.36.46:391][218]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2014.11.25-20.36.46:655][218]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.11.25-20.36.46:662][218]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.11.25-20.36.46:666][218]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2014.11.25-20.36.46:671][218]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.11.25-20.36.46:676][218]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.11.25-20.36.46:682][218]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2014.11.25-20.36.46:690][218]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.11.25-20.36.46:696][218]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.11.25-20.36.46:707][218]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2014.11.25-20.36.46:721][218]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.25-20.36.46:726][218]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.25-20.36.46:735][218]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2014.11.25-20.36.46:741][218]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.25-20.36.46:746][218]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.25-20.36.46:756][218]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2014.11.25-20.36.46:760][218]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.25-20.36.46:768][218]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.25-20.36.46:781][218]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2014.11.25-20.36.46:792][218]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.25-20.36.46:799][218]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.11.25-20.36.46:813][218]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2014.11.25-20.36.46:822][218]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.25-20.36.46:838][218]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.25-20.36.46:856][218]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2014.11.25-20.36.46:872][218]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.25-20.36.46:928][218]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.25-20.36.47:043][218]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2014.11.25-20.36.47:106][218]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.25-20.36.47:264][218]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.25-20.36.47:720][218]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2014.11.25-20.36.47:971][218]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.25-20.36.48:134][218]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.25-20.36.49:108][218]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.11.25-20.36.49:322][218]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.11.25-20.36.49:351][218]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.11.25-20.36.49:357][218]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.11.25-20.36.49:361][218]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.11.25-20.36.49:363][218]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.11.25-20.36.49:366][218]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.11.25-20.36.49:369][218]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.11.25-20.36.49:372][218]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.11.25-20.36.49:374][218]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.11.25-20.36.49:388][218]Lightmass on LAB5-49: 16.1 sec total, 144 ms importing, 80 ms setup, 3.15 sec photons, 12.7 sec processing, 0 ms extra exporting [193/193 mappings]. Threads: 1:54 min total, 59.7 sec processing.
+[2014.11.25-20.36.49:420][218]LogStaticLightingSystem:Warning: Illumination: 22.7 sec (3.30 sec encoding lightmaps)
+[2014.11.25-20.36.49:420][218]LogStaticLightingSystem: Lightmap texture memory:  4.2 MB (0.2 MB streaming, 4.0 MB non-streaming), 22 textures
+[2014.11.25-20.36.49:420][218]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 18 textures
+[2014.11.25-20.36.49:638][219]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.25-20.36.49:638][219]MapCheck: New page: barracks_layout_for_mocap002 - Nov 25, 2014, 6:36:49 AM
+[2014.11.25-20.36.49:638][219]MapCheck:Warning: Performance Warning bossTestRigged_3 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2014.11.25-20.36.49:638][219]MapCheck:Warning: Warning bossTestRigged_3 bossTestRigged_3 : Skeletal mesh actor has NULL SkeletalMesh property 
+[2014.11.25-20.36.49:678][219]MapCheck: Info ========== Map Check: 0 Error(s), 2 Warning(s), [40.254ms] ==========
+[2014.11.25-20.37.31:189][534]LogSavePackage: Save=751.955933ms
+[2014.11.25-20.37.31:189][534]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/barracks_layout_for_mocap0022FCE166E407002B0BE3367AC6137ED6E.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/Maps/barracks_layout_for_mocap002.umap'
+[2014.11.25-20.37.37:921][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Beds/beds" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/Beds/beds.uasset" SILENT=true
+[2014.11.25-20.37.37:952][798]LogSavePackage: Save=26.340279ms
+[2014.11.25-20.37.37:952][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/beds2112B44E480735B5B1542493B9EC73DF.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/Beds/beds.uasset'
+[2014.11.25-20.37.37:977][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/BunkHouse_Stairs" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/BunkHouse_Stairs.uasset" SILENT=true
+[2014.11.25-20.37.38:349][798]LogSavePackage: Save=367.846863ms
+[2014.11.25-20.37.38:349][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/BunkHouse_StairsBD283FF440D7E5F095CE3D9F5A65FAF0.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/BunkHouse_Stairs.uasset'
+[2014.11.25-20.37.38:365][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/stone_004" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/stone_004.uasset" SILENT=true
+[2014.11.25-20.37.38:590][798]LogSavePackage: Save=221.800156ms
+[2014.11.25-20.37.38:590][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/stone_0045F6D0BA34026204786E9EFB4FD0B72F6.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/stone_004.uasset'
+[2014.11.25-20.37.38:598][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingMats/wallsMat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/wallsMat.uasset" SILENT=true
+[2014.11.25-20.37.38:634][798]LogSavePackage: Save=23.555065ms
+[2014.11.25-20.37.38:634][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/wallsMat7ABA250E4AEAFBF35461ABB308FC19C3.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/BuildingMats/wallsMat.uasset'
+[2014.11.25-20.37.38:658][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/desks/kidDesk" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/desks/kidDesk.uasset" SILENT=true
+[2014.11.25-20.37.38:981][798]LogSavePackage: Save=305.061768ms
+[2014.11.25-20.37.38:981][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/kidDesk160C2D0445191E89BED7378F9252F1CD.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/desks/kidDesk.uasset'
+[2014.11.25-20.37.38:989][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/desks/kidDesk_mat" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/desks/kidDesk_mat.uasset" SILENT=true
+[2014.11.25-20.37.39:022][798]LogSavePackage: Save=17.942169ms
+[2014.11.25-20.37.39:022][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/kidDesk_mat70E83CAF46B079D5AD143FA0CBB0CC35.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/desks/kidDesk_mat.uasset'
+[2014.11.25-20.37.39:044][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/desks/stool001" FILE="F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/desks/stool001.uasset" SILENT=true
+[2014.11.25-20.37.39:357][798]LogSavePackage: Save=308.839935ms
+[2014.11.25-20.37.39:357][798]LogSavePackage: Moving 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Saved/stool00151306DA94F8F89BFE45BEE8980A03150.tmp' to 'F:/UnReal/cloudFactory/CloudFactory/MyProject/Content/desks/stool001.uasset'
+[2014.11.25-20.37.39:666][799]Cmd: QUIT_EDITOR
+[2014.11.25-20.37.39:760][799]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.25-20.37.39:761][799]LogExit: Preparing to exit.
+[2014.11.25-20.37.40:037][799]LogExit: Editor shut down
+[2014.11.25-20.37.40:037][799]LogExit: Transaction tracking system shut down
+[2014.11.25-20.37.40:038][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000093F6CA0
+[2014.11.25-20.37.40:038][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A6489A0
+[2014.11.25-20.37.40:038][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A6AEA20
+[2014.11.25-20.37.40:057][799]LogExit: Object subsystem successfully closed.
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module MaterialEditor (162)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.11.25-20.37.40:078][799]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.11.25-20.37.40:079][799]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.11.25-20.37.40:131][799]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module OculusRift (91)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module MessagingDebugger (90)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module ViewportSnapping (89)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module SmartSnapping (88)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (87)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (86)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.11.25-20.37.40:246][799]LogModuleManager: Shutting down and abandoning module LevelEditor (81)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module IntroTutorials (80)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module AssetTools (77)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (75)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module PluginsEditor (74)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module MainFrame (73)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module EpicSurvey (72)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (71)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module UObjectPlugin (70)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (69)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module SourceControl (68)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (67)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module BlankPlugin (66)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module ScriptPlugin (65)
+[2014.11.25-20.37.40:247][799]LogModuleManager: Shutting down and abandoning module UdpMessaging (64)
+[2014.11.25-20.37.40:347][799]LogModuleManager: Shutting down and abandoning module Paper2D (63)
+[2014.11.25-20.37.40:347][799]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (62)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module ImageWrapper (61)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (60)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module FunctionalTesting (59)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (58)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (57)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module MessageLog (56)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module UMGEditor (55)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module UMG (54)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module Slate (53)
+[2014.11.25-20.37.40:349][799]LogModuleManager: Shutting down and abandoning module EditorStyle (52)
+[2014.11.25-20.37.40:350][799]LogModuleManager: Shutting down and abandoning module SessionServices (51)
+[2014.11.25-20.37.40:350][799]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (50)
+[2014.11.25-20.37.40:350][799]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (49)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module XAudio2 (48)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module Networking (46)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module Core (45)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module KismetCompiler (44)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module PhysXFormats (43)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module MeshUtilities (42)
+[2014.11.25-20.37.40:351][799]LogModuleManager: Shutting down and abandoning module DerivedDataCache (41)
+[2014.11.25-20.37.40:406][799]LogDerivedDataCache: Shutdown
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (40)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (39)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (38)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (37)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (36)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (35)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (34)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (33)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (32)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (31)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Messaging (30)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (29)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (28)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (27)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (26)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (25)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (24)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (23)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (22)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (21)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (20)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (19)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module TargetPlatform (18)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module InputCore (17)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Settings (16)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.25-20.37.40:406][799]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.25-20.37.40:406][799]LogExit: Exiting.
+[2014.11.25-20.37.40:417][799]Log file closed, 11/25/14 13:37:40
