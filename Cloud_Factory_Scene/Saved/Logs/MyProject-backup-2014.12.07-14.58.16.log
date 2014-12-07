@@ -1,0 +1,457 @@
+Log file open, 12/07/14 14:19:56
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.07-21.19.56:209][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.07-21.19.56:235][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.07-21.19.56:242][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.07-21.19.56:249][  0]LogInit: Object subsystem initialized
+[2014.12.07-21.19.56:252][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.07-21.19.56:252][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.07-21.19.56:255][  0]LogInit: Computer: TCPC-10
+[2014.12.07-21.19.56:255][  0]LogInit: User: u0851349
+[2014.12.07-21.19.56:256][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.07-21.19.56:256][  0]LogInit: High frequency timer resolution =3.906318 MHz
+[2014.12.07-21.19.56:256][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.12.07-21.19.56:257][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.07-21.19.56:257][  0]LogMemory: Process Physical Memory: 62.34 MB used, 62.34 MB peak
+[2014.12.07-21.19.56:257][  0]LogMemory: Process Virtual Memory: 38.25 MB used, 38.25 MB peak
+[2014.12.07-21.19.56:257][  0]LogMemory: Physical Memory: 3063.23 MB used, 8173.54 MB total
+[2014.12.07-21.19.56:257][  0]LogMemory: Virtual Memory: 257.78 MB used, 8388608.00 MB total
+[2014.12.07-21.19.56:285][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2014.12.07-21.19.56:285][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.12.07-21.19.56:285][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.07-21.19.56:291][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.12.07-21.19.56:298][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.07-21.19.56:405][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.07-21.19.57:784][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.07-21.19.58:117][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.07-21.19.58:150][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.07-21.19.58:216][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/u0851349/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.12.07-21.19.58:216][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0851349/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.12.07-21.19.58:216][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.07-21.19.58:216][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.07-21.19.58:232][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.07-21.19.58:244][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0851349/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.12.07-21.19.58:395][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.07-21.19.58:395][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.07-21.19.58:751][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.07-21.19.59:417][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_25c0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b48_0///////STATCAT_Advanced////
+[2014.12.07-21.19.59:418][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.07-21.19.59:506][  0]SourceControl: Info Source control is disabled
+[2014.12.07-21.19.59:506][  0]SourceControl: Info Source control is disabled
+[2014.12.07-21.19.59:511][  0]SourceControl: Info Source control is disabled
+[2014.12.07-21.19.59:648][  0]BlueprintLog: New page: Editor Load
+[2014.12.07-21.19.59:720][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.12.07-21.19.59:720][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.12.07-21.19.59:879][  0]LogEngine: Initializing Engine...
+[2014.12.07-21.19.59:980][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.07-21.19.59:988][  0]LogInit: FAudioDevice initialized.
+[2014.12.07-21.20.00:001][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.07-21.20.00:118][  0]LogDerivedDataCache: Saved boot cache 0.12s 39MB C:/Users/u0851349/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.12.07-21.20.00:128][  0]LogInit: Texture streaming: Enabled
+[2014.12.07-21.20.00:151][  0]LogInit: Transaction tracking system initialized
+[2014.12.07-21.20.00:235][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.12.07-21.20.00:617][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.07-21.20.00:889][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.07-21.20.00:993][  0]LogConsoleResponse:Display: 
+[2014.12.07-21.20.01:125][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2184_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b48_0///////STATCAT_Advanced////
+[2014.12.07-21.20.01:125][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_207c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b48_0///////STATCAT_Advanced////
+[2014.12.07-21.20.01:125][  0]SourceControl: Info Source control is disabled
+[2014.12.07-21.20.01:125][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.12.07-21.20.01:125][  0]LightingResults: New page: Lighting Build
+[2014.12.07-21.20.01:131][  0]MapCheck: New page: Map Check
+[2014.12.07-21.20.01:131][  0]LightingResults: New page: Lighting Build
+[2014.12.07-21.20.01:144][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001163D300
+[2014.12.07-21.20.01:306][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.07-21.20.01:306][  0]LogAIModule: Creating AISystem for world Template_Default
+[2014.12.07-21.20.01:306][  0]Cmd: MAP CHECKDEP
+[2014.12.07-21.20.01:306][  0]MapCheck: New page: Untitled_1 - Dec 7, 2014, 7:20:01 AM
+[2014.12.07-21.20.01:355][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [48.139ms] ==========
+[2014.12.07-21.20.01:355][  0]LogFileHelpers: Loading map 'Template_Default' took 0.230
+[2014.12.07-21.20.01:440][  0]LogCollectionManager: Loaded 0 collections in 0.000830 seconds
+[2014.12.07-21.20.01:519][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.07-21.20.01:565][  0]LogLoad: Full Startup: 7.02 seconds (BP compile: 0.06 seconds)
+[2014.12.07-21.20.01:576][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.12.07-21.20.01:756][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x896.
+[2014.12.07-21.20.01:978][  1]LogAssetRegistry: Asset discovery search completed in 1.7532 seconds
+[2014.12.07-21.20.11:716][257]Cmd: MAP LOAD FILE="../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Maps/basementfloorscene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.07-21.20.11:717][257]LightingResults: New page: Lighting Build
+[2014.12.07-21.20.11:730][257]LoadErrors: New page: Loading map: basementfloorscene.umap
+[2014.12.07-21.20.11:730][257]MapCheck: New page: Map Check
+[2014.12.07-21.20.11:730][257]LightingResults: New page: Lighting Build
+[2014.12.07-21.20.11:745][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB0BEC0
+[2014.12.07-21.20.11:759][257]LogLinker:Warning: Asset '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Blueprints/Blueprint_Effect_Smoke.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.07-21.20.11:770][257]LogLinker:Warning: Asset '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Blueprints/Blueprint_Effect_Steam.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.07-21.20.11:897][257]LogLinker:Warning: Asset '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Props/SM_Lamp_Ceiling.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.07-21.20.12:782][257]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.07-21.20.12:783][257]LogAIModule: Creating AISystem for world basementfloorscene
+[2014.12.07-21.20.12:801][257]Cmd: MAP CHECKDEP
+[2014.12.07-21.20.12:802][257]MapCheck: New page: basementfloorscene - Dec 7, 2014, 7:20:12 AM
+[2014.12.07-21.20.12:875][257]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [73.294ms] ==========
+[2014.12.07-21.20.12:875][257]LogFileHelpers: Loading map 'basementfloorscene' took 1.159
+[2014.12.07-21.20.24:860][794]LogRenderer:Warning: Reallocating scene render targets to support 1056x896.
+[2014.12.07-21.20.27:686][ 14]LogContentStreaming: Texture pool size now 700 MB
+[2014.12.07-21.21.33:163][  0]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.07-21.21.33:163][  0]PIE: New page: SIE session: basementfloorscene (Dec 7, 2014, 7:21:33 AM)
+[2014.12.07-21.21.33:226][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063019s)
+[2014.12.07-21.21.33:227][  0]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2014.12.07-21.21.33:227][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/basementfloorscene.basementfloorscene to /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene (0.063970s)
+[2014.12.07-21.21.33:266][  0]LogWorld: Game class is 'GameMode'
+[2014.12.07-21.21.33:268][  0]LogAIModule: Creating AISystem for world basementfloorscene
+[2014.12.07-21.21.33:281][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene up for play (max tick rate 0) at 2014.12.07-14.21.33
+[2014.12.07-21.21.33:285][  0]LogWorld: Bringing up level for play took: 0.017036
+[2014.12.07-21.21.33:286][  0]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_basementfloorscene 1.029
+[2014.12.07-21.21.33:368][  1]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.21.53:702][264]Cmd: TRANSACTION UNDO
+[2014.12.07-21.21.53:702][264]LogEditorTransaction: Undo Create Actors
+[2014.12.07-21.22.02:124][428]Cmd: TRANSACTION UNDO
+[2014.12.07-21.22.02:125][428]LogEditorTransaction: Undo Move Actors
+[2014.12.07-21.22.03:446][488]Cmd: TRANSACTION UNDO
+[2014.12.07-21.22.03:446][488]LogEditorTransaction: Undo Move Actors
+[2014.12.07-21.22.04:603][504]Cmd: TRANSACTION UNDO
+[2014.12.07-21.22.04:603][504]LogEditorTransaction: Undo Create Actors
+[2014.12.07-21.22.11:427][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_11)
+[2014.12.07-21.22.11:427][577]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.SM_Lamp_Ceiling_11"
+[2014.12.07-21.22.15:191][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_11)
+[2014.12.07-21.22.15:191][620]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.SM_Lamp_Ceiling_11"
+[2014.12.07-21.22.21:003][709]LogSelection:Warning: PIE object was selected: "PointLight /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.PointLight_1"
+[2014.12.07-21.23.30:170][903]Cmd: EDIT COPY
+[2014.12.07-21.23.37:853][964]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.38:131][966]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.38:411][968]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.38:696][970]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.38:972][972]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.39:251][974]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.39:531][976]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.39:810][978]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.40:090][980]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.40:508][983]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.40:785][985]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.41:204][988]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.23.46:681][ 37]Cmd: EDIT COPY
+[2014.12.07-21.23.47:115][ 40]Cmd: EDIT PASTE
+[2014.12.07-21.23.53:345][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_11)
+[2014.12.07-21.23.53:345][ 92]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.SM_Lamp_Ceiling_11"
+[2014.12.07-21.24.07:448][205]LogSelection:Warning: PIE object was selected: "PointLight /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.PointLight_1"
+[2014.12.07-21.24.11:801][242]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.13:037][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_11)
+[2014.12.07-21.24.13:037][252]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.SM_Lamp_Ceiling_11"
+[2014.12.07-21.24.14:577][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling_11)
+[2014.12.07-21.24.14:577][267]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.SM_Lamp_Ceiling_11"
+[2014.12.07-21.24.16:663][289]LogSelection:Warning: PIE object was selected: "PointLight /Game/Maps/UEDPIE_0_basementfloorscene.basementfloorscene:PersistentLevel.PointLight_1"
+[2014.12.07-21.24.18:543][306]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.18:786][308]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.19:031][310]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.20:514][323]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.20:759][325]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.25:069][517]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.24.26:956][632]LogContentStreaming: Texture pool size now 400 MB
+[2014.12.07-21.24.29:102][655]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.29:303][657]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.31:122][677]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.31:323][679]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.31:523][681]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.31:723][683]Performance:Warning: Warning Mobility of PointLight_1 : LightComponent0 has to be 'Movable' if you'd like to move. 
+[2014.12.07-21.24.34:750][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000207080E0
+[2014.12.07-21.25.07:188][ 76]Cmd: EDIT COPY
+[2014.12.07-21.25.08:046][ 86]Cmd: EDIT PASTE
+[2014.12.07-21.25.43:449][460]Cmd: EDIT COPY
+[2014.12.07-21.25.44:041][466]Cmd: EDIT PASTE
+[2014.12.07-21.27.44:314][617]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.27.45:260][684]LogContentStreaming: Texture pool size now 200 MB
+[2014.12.07-21.28.53:887][123]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.29.11:537][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.12.07-21.29.12:143][505]LogContentStreaming: Texture pool size now 1000 MB
+[2014.12.07-21.29.15:343][522]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.30.12:555][ 30]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.30.14:550][167]LogContentStreaming: Texture pool size now 200 MB
+[2014.12.07-21.30.19:349][262]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/addprops'
+[2014.12.07-21.30.23:503][335]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.12.07-21.30.28:579][425]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/addprops'
+[2014.12.07-21.30.31:506][543]LogActorFactory: Actor Factory created vana_defaultrender
+[2014.12.07-21.30.32:030][552]LogActorFactory: Actor Factory created vana_defaultrender
+[2014.12.07-21.30.38:933][684]LogUnrealMath: Expression Error : No value recognized
+[2014.12.07-21.30.38:933][684]LogUnrealMath: Expression Error : Error in expression
+[2014.12.07-21.30.50:184][916]Cmd: DELETE
+[2014.12.07-21.30.50:184][916]Cmd: ACTOR DELETE
+[2014.12.07-21.30.50:186][916]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.07-21.30.50:231][916]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2014.12.07-21.32.32:187][271]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.33.10:141][ 34]LogSavePackage: Save=236.324341ms
+[2014.12.07-21.33.10:141][ 34]LogSavePackage: Moving '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/basementfloorscene_Auto158EB291542EBF442FDE491A793B042AB.tmp' to '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Maps/basementfloorscene_Auto1.umap'
+[2014.12.07-21.33.10:152][ 34]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/basementfloorscene' took 0.324
+[2014.12.07-21.33.10:152][ 34]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.324
+[2014.12.07-21.33.14:870][317]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.33.17:197][489]LogContentStreaming: Texture pool size now 700 MB
+[2014.12.07-21.33.19:353][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.12.07-21.33.26:831][551]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.33.39:216][602]EditorErrors: New page: Actor attachment
+[2014.12.07-21.33.59:504][739]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.36.05:799][673]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.36.09:789][978]LogContentStreaming: Texture pool size now 200 MB
+[2014.12.07-21.36.09:966][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (The_Compound_2)
+[2014.12.07-21.36.29:990][535]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.36.32:212][686]LogContentStreaming: Texture pool size now 700 MB
+[2014.12.07-21.36.52:574][131]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.37.26:304][818]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.37.30:210][105]LogContentStreaming: Texture pool size now 400 MB
+[2014.12.07-21.39.22:012][436]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.39.27:824][898]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.40.01:872][532]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.40.09:604][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.12.07-21.40.10:375][576]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2014.12.07-21.41.53:956][753]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.41.55:938][902]LogContentStreaming: Texture pool size now 200 MB
+[2014.12.07-21.42.14:219][294]Cmd: EDIT COPY
+[2014.12.07-21.42.14:653][303]Cmd: EDIT PASTE
+[2014.12.07-21.42.24:459][521]Cmd: EDIT COPY
+[2014.12.07-21.42.24:847][530]Cmd: EDIT PASTE
+[2014.12.07-21.42.36:106][771]Cmd: EDIT COPY
+[2014.12.07-21.42.36:605][781]Cmd: EDIT PASTE
+[2014.12.07-21.43.17:689][692]LogSavePackage: Save=235.621368ms
+[2014.12.07-21.43.17:689][692]LogSavePackage: Moving '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/basementfloorscene_Auto24E50945545F43038A8FAE8855D9A6646.tmp' to '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Maps/basementfloorscene_Auto2.umap'
+[2014.12.07-21.43.17:695][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/basementfloorscene' took 0.331
+[2014.12.07-21.43.17:695][692]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.331
+[2014.12.07-21.43.45:152][293]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.43.52:302][637]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.43.54:940][768]LogContentStreaming: Texture pool size now 1000 MB
+[2014.12.07-21.46.36:686][628]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.46.38:912][780]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.46.41:254][963]LogContentStreaming: Texture pool size now 200 MB
+[2014.12.07-21.49.34:026][981]LogInit: Transaction tracking system initialized
+[2014.12.07-21.49.34:027][981]EditorErrors: New page: Matinee Initialization
+[2014.12.07-21.50.10:605][888]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.50.45:550][154]LogEditorTransaction: Undo New Group
+[2014.12.07-21.51.02:223][330]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor4)
+[2014.12.07-21.51.10:372][476]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor3)
+[2014.12.07-21.51.11:962][500]Cmd: DELETE
+[2014.12.07-21.51.11:962][500]Cmd: ACTOR DELETE
+[2014.12.07-21.51.13:558][500]LogEditorActor: Deleted Actor: CameraActor
+[2014.12.07-21.51.13:602][500]LogExit: Transaction tracking system shut down
+[2014.12.07-21.51.13:602][500]LogEditorActor: Deleted 1 Actors (1.640 secs)
+[2014.12.07-21.51.15:559][534]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor4)
+[2014.12.07-21.51.17:884][573]Cmd: DELETE
+[2014.12.07-21.51.17:884][573]Cmd: ACTOR DELETE
+[2014.12.07-21.51.17:886][573]LogEditorActor: Deleted Actor: CameraActor
+[2014.12.07-21.51.17:984][573]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2014.12.07-21.51.21:887][655]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.51.38:163][720]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2014.12.07-21.51.42:267][885]LogDialogs:Warning: Supressed: Opening the Matinee Editor will reset all current Undo data. (Undo/Redo will only be available on matinee actions while it remains open)
+[2014.12.07-21.51.42:267][885]LogInit: Transaction tracking system initialized
+[2014.12.07-21.51.42:268][885]EditorErrors: New page: Matinee Initialization
+[2014.12.07-21.53.50:222][222]LogEditorViewport: Clicking Background
+[2014.12.07-21.54.22:608][996]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.54.29:598][223]LogContentStreaming: Texture pool size now 1000 MB
+[2014.12.07-21.54.56:814][408]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.55.01:736][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.12.07-21.55.05:824][605]Cmd: EDCALLBACK SURFPROPS
+[2014.12.07-21.55.24:122][153]LogRenderer:Warning: Reallocating scene render targets to support 1056x904.
+[2014.12.07-21.55.25:299][237]LogContentStreaming: Texture pool size now 200 MB
+[2014.12.07-21.55.26:739][267]LogExit: Transaction tracking system shut down
+[2014.12.07-21.55.27:033][267]LogSavePackage: Save=236.346603ms
+[2014.12.07-21.55.27:033][267]LogSavePackage: Moving '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/basementfloorscene_Auto37B8A098B4A2E3D6B4CD581AB3091FC0F.tmp' to '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Maps/basementfloorscene_Auto3.umap'
+[2014.12.07-21.55.27:038][267]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/basementfloorscene' took 0.317
+[2014.12.07-21.55.27:038][267]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.317
+[2014.12.07-21.56.08:017][157]LogSavePackage: Save=235.523331ms
+[2014.12.07-21.56.08:017][157]LogSavePackage: Moving '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/basementfloorscene353C95E443CEBEB289A79CBD126D9BD9.tmp' to '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Maps/basementfloorscene.umap'
+[2014.12.07-21.56.13:092][240]Cmd: MAP LOAD FILE="../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Maps/bossofficescene2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.07-21.56.13:092][240]LightingResults: New page: Lighting Build
+[2014.12.07-21.56.13:109][240]LoadErrors: New page: Loading map: bossofficescene2.umap
+[2014.12.07-21.56.13:111][240]MapCheck: New page: Map Check
+[2014.12.07-21.56.13:111][240]LightingResults: New page: Lighting Build
+[2014.12.07-21.56.13:135][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000308FA520
+[2014.12.07-21.56.13:717][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.07-21.56.13:718][240]LogAIModule: Creating AISystem for world bossofficescene2
+[2014.12.07-21.56.14:599][240]Cmd: MAP CHECKDEP
+[2014.12.07-21.56.14:599][240]MapCheck: New page: bossofficescene2 - Dec 7, 2014, 7:56:14 AM
+[2014.12.07-21.56.14:681][240]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [82.529ms] ==========
+[2014.12.07-21.56.14:681][240]LogFileHelpers: Loading map 'bossofficescene2' took 1.590
+[2014.12.07-21.56.23:349][530]LogStaticMesh: Building static mesh cloud...
+[2014.12.07-21.56.23:619][530]LogStaticMesh: Built static mesh [269.899933ms] /Game/addprops/cloud.cloud
+[2014.12.07-21.56.23:744][530]LogActorFactory: Actor Factory created cloud
+[2014.12.07-21.56.24:422][545]LogActorFactory: Actor Factory created cloud
+[2014.12.07-21.56.28:492][641]Cmd: DELETE
+[2014.12.07-21.56.28:492][641]Cmd: ACTOR DELETE
+[2014.12.07-21.56.28:494][641]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.12.07-21.56.28:536][641]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2014.12.07-21.57.34:786][826]LogSavePackage: Save=217.969971ms
+[2014.12.07-21.57.34:786][826]LogSavePackage: Moving '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Saved/bossofficescene2957FBEAD476E3927934E86BC3B9596E2.tmp' to '../../../../../../Users/u0851349/Desktop/CloudFactory/Cloud_Factory_Scene/Content/Maps/bossofficescene2.umap'
+[2014.12.07-21.57.34:808][826]LogFileHelpers: Saving map 'bossofficescene2' took 0.360
+[2014.12.07-21.57.35:147][827]Cmd: QUIT_EDITOR
+[2014.12.07-21.57.35:269][827]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.12.07-21.57.35:269][827]LogExit: Preparing to exit.
+[2014.12.07-21.57.35:544][827]LogExit: Editor shut down
+[2014.12.07-21.57.35:545][827]LogExit: Transaction tracking system shut down
+[2014.12.07-21.57.35:545][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000308F8360
+[2014.12.07-21.57.35:545][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000308F8400
+[2014.12.07-21.57.35:546][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A220A40
+[2014.12.07-21.57.35:616][827]LogExit: Object subsystem successfully closed.
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module DistCurveEditor (162)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.12.07-21.57.35:660][827]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.12.07-21.57.35:661][827]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.12.07-21.57.35:662][827]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.12.07-21.57.35:762][827]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.12.07-21.57.35:998][827]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.12.07-21.57.35:999][827]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.12.07-21.57.36:099][827]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.12.07-21.57.36:099][827]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.12.07-21.57.36:105][827]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.12.07-21.57.36:107][827]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.12.07-21.57.36:118][827]LogDerivedDataCache: Shutdown
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.07-21.57.36:118][827]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.07-21.57.36:119][827]LogExit: Exiting.
+[2014.12.07-21.57.36:128][827]Log file closed, 12/07/14 14:57:36
