@@ -1,0 +1,1777 @@
+﻿Log file open, 12/11/14 12:56:56
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: E:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.11-19.56.56:200][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.11-19.56.56:239][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.11-19.56.56:263][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.11-19.56.56:273][  0]LogInit: Object subsystem initialized
+[2014.12.11-19.56.56:278][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.11-19.56.56:278][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.11-19.56.56:278][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.12.11-19.56.56:278][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.11-19.56.56:279][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.11-19.56.56:279][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.11-19.56.56:285][  0]LogInit: Computer: JACK
+[2014.12.11-19.56.56:285][  0]LogInit: User: Mtp8
+[2014.12.11-19.56.56:287][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.11-19.56.56:287][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.12.11-19.56.56:287][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2014.12.11-19.56.56:287][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.11-19.56.56:287][  0]LogMemory: Process Physical Memory: 62.24 MB used, 62.24 MB peak
+[2014.12.11-19.56.56:287][  0]LogMemory: Process Virtual Memory: 39.29 MB used, 39.29 MB peak
+[2014.12.11-19.56.56:287][  0]LogMemory: Physical Memory: 2416.71 MB used, 8156.62 MB total
+[2014.12.11-19.56.56:287][  0]LogMemory: Virtual Memory: 283.10 MB used, 134217728.00 MB total
+[2014.12.11-19.56.56:331][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2014.12.11-19.56.56:331][  0]LogD3D11RHI: Adapter has 3906MB of dedicated video memory, 0MB of dedicated system memory, and 4078MB of shared system memory, 2 output[s]
+[2014.12.11-19.56.56:332][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.11-19.56.56:332][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.11-19.56.56:332][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.11-19.56.56:337][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.11-19.56.56:356][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.11-19.56.56:406][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.11-19.56.56:550][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.11-19.57.00:896][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.11-19.57.01:332][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.11-19.57.01:380][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.11-19.57.01:461][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Mtp8/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.11-19.57.01:461][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mtp8/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.11-19.57.01:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.11-19.57.01:461][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.11-19.57.01:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.11-19.57.01:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mtp8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.11-19.57.01:735][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.11-19.57.01:735][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.11-19.57.02:074][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.11-19.57.02:077][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.11-19.57.02:275][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.11-19.57.03:197][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.11-19.57.03:373][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for E:/Work/New folder/CloudFactory/Cloud_Factory_Scene/Binaries/Win64. Error: 0
+[2014.12.11-19.57.03:498][  0]SourceControl: Info Source control is disabled
+[2014.12.11-19.57.03:498][  0]SourceControl: Info Source control is disabled
+[2014.12.11-19.57.03:505][  0]SourceControl: Info Source control is disabled
+[2014.12.11-19.57.03:624][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.11-19.57.03:624][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.12.11-19.57.03:692][  0]LogEngine: Initializing Engine...
+[2014.12.11-19.57.03:868][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.12.11-19.57.03:886][  0]LogInit: FAudioDevice initialized.
+[2014.12.11-19.57.03:908][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.11-19.57.03:955][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Mtp8/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.11-19.57.03:971][  0]LogInit: Texture streaming: Enabled
+[2014.12.11-19.57.04:024][  0]LogInit: Transaction tracking system initialized
+[2014.12.11-19.57.04:124][  0]BlueprintLog: New page: Editor Load
+[2014.12.11-19.57.04:154][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2014.12.11-19.57.04:154][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.11-19.57.04:643][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.11-19.57.05:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.11-19.57.05:274][  0]LogConsoleResponse:Display: 
+[2014.12.11-19.57.05:470][  0]SourceControl: Info Source control is disabled
+[2014.12.11-19.57.05:470][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.12.11-19.57.05:471][  0]LightingResults: New page: Lighting Build
+[2014.12.11-19.57.05:484][  0]MapCheck: New page: Map Check
+[2014.12.11-19.57.05:484][  0]LightingResults: New page: Lighting Build
+[2014.12.11-19.57.05:504][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C675BC9A80
+[2014.12.11-19.57.05:745][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.11-19.57.05:745][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2014.12.11-19.57.05:745][  0]Cmd: MAP CHECKDEP
+[2014.12.11-19.57.05:745][  0]MapCheck: New page: Untitled_1 - Dec 11, 2014, 5:57:05 AM
+[2014.12.11-19.57.05:822][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.864ms to complete.
+[2014.12.11-19.57.05:822][  0]LogFileHelpers: Loading map 'Template_Default' took 0.352
+[2014.12.11-19.57.06:408][  0]LogCollectionManager: Loaded 0 collections in 0.001239 seconds
+[2014.12.11-19.57.07:930][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.11-19.57.08:168][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.11-19.57.08:217][  0]LogLoad: Full Startup: 14.23 seconds (BP compile: 0.06 seconds)
+[2014.12.11-19.57.08:562][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.12.11-19.57.09:300][  0]LogRenderer:Warning: Reallocating scene render targets to support 1064x944.
+[2014.12.11-19.57.11:028][  4]LogAssetRegistry: Asset discovery search completed in 6.8858 seconds
+[2014.12.11-19.57.23:913][234]Cmd: MAP LOAD FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Maps/basementfloorscenelights.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.11-19.57.23:913][234]LightingResults: New page: Lighting Build
+[2014.12.11-19.57.23:957][234]LoadErrors: New page: Loading map: basementfloorscenelights.umap
+[2014.12.11-19.57.23:967][234]MapCheck: New page: Map Check
+[2014.12.11-19.57.23:967][234]LightingResults: New page: Lighting Build
+[2014.12.11-19.57.23:984][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66D9B8720
+[2014.12.11-19.57.24:028][234]LogLinker:Warning: Asset '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Blueprints/Blueprint_Effect_Smoke.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.11-19.57.24:043][234]LogLinker:Warning: Asset '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Blueprints/Blueprint_Effect_Steam.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.11-19.57.24:270][234]LogLinker:Warning: Asset '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Props/SM_Lamp_Ceiling.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.11-19.57.26:759][234]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.12.11-19.57.26:829][234]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.12.11-19.57.26:943][234]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.12.11-19.57.27:011][234]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.12.11-19.57.27:072][234]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2014.12.11-19.57.27:097][234]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.12.11-19.57.27:107][234]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.12.11-19.57.27:112][234]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.12.11-19.57.27:124][234]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.12.11-19.57.27:132][234]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.12.11-19.57.27:146][234]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2014.12.11-19.57.27:153][234]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.12.11-19.57.27:163][234]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.12.11-19.57.27:168][234]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.12.11-19.57.27:181][234]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.12.11-19.57.27:189][234]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.12.11-19.57.27:333][234]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.12.11-19.57.27:357][234]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.12.11-19.57.27:413][234]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.12.11-19.57.27:466][234]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.12.11-19.57.27:506][234]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2014.12.11-19.57.27:550][234]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.12.11-19.57.27:589][234]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2014.12.11-19.57.27:599][234]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2014.12.11-19.57.27:601][234]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.12.11-19.57.27:607][234]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.12.11-19.57.27:626][234]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.12.11-19.57.27:646][234]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.12.11-19.57.27:655][234]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.12.11-19.57.27:659][234]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.12.11-19.57.27:669][234]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2014.12.11-19.57.27:672][234]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.12.11-19.57.27:680][234]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.12.11-19.57.27:684][234]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.12.11-19.57.27:686][234]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.12.11-19.57.27:694][234]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.12.11-19.57.27:703][234]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.12.11-19.57.27:811][234]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.12.11-19.57.28:370][234]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.11-19.57.28:401][234]LogAIModule: Creating AISystem for world basementfloorscenelights
+[2014.12.11-19.57.28:446][234]Cmd: MAP CHECKDEP
+[2014.12.11-19.57.28:446][234]MapCheck: New page: basementfloorscenelights - Dec 11, 2014, 5:57:28 AM
+[2014.12.11-19.57.28:580][234]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 133.882ms to complete.
+[2014.12.11-19.57.28:580][234]LogFileHelpers: Loading map 'basementfloorscenelights' took 4.671
+[2014.12.11-19.57.30:299][272]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Scene_1-2_Sam_Anim)
+[2014.12.11-19.57.31:446][273]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Scene_1-2_Sam_Anim)
+[2014.12.11-19.59.52:050][233]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Work/New folder/CloudFactory/Animations/!Saves/Scene 14-15/Sam002.fbx)
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: MotionBuilder_System, ItemCount : 28
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: Model, ItemCount : 136
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: NodeAttribute, ItemCount : 131
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: MotionBuilder_Generic, ItemCount : 7
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: Geometry, ItemCount : 5
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: Pose, ItemCount : 11
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: Deformer, ItemCount : 107
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: Character, ItemCount : 2
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: AnimationCurveNode, ItemCount : 84
+[2014.12.11-19.59.52:263][233]LogFbx: ItemName: AnimationCurve, ItemCount : 116
+[2014.12.11-19.59.54:033][233]LogFbx: Loading FBX Scene from ../../../../../../Work/New folder/CloudFactory/Animations/!Saves/Scene 14-15/Sam002.fbx
+[2014.12.11-19.59.54:303][233]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-19.59.54:328][233]LogFbx: 	Total Deformer Count 1834224432.
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-19.59.54:328][233]LogFbx: 	Total Deformer Count 193617936.
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-19.59.54:328][233]LogFbx: 	Total Deformer Count 344301312.
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-19.59.54:328][233]LogFbx: 	Total Deformer Count 344301312.
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-19.59.54:328][233]LogFbx: 	Total Deformer Count 344301312.
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-19.59.54:328][233]LogFbx: =================================================
+[2014.12.11-19.59.54:328][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:328][233]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-19.59.54:328][233]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 1834224432.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 193625552.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 344301312.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 344301312.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 344301312.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 1834224432.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 193625552.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-19.59.54:329][233]LogFbx: 	Total Deformer Count 344298176.
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-19.59.54:329][233]LogFbx: =================================================
+[2014.12.11-19.59.54:329][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:329][233]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-19.59.54:329][233]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-19.59.54:330][233]LogFbx: =================================================
+[2014.12.11-19.59.54:330][233]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-19.59.54:330][233]LogFbx: 	Total Deformer Count 344298176.
+[2014.12.11-19.59.54:330][233]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-19.59.54:330][233]LogFbx: =================================================
+[2014.12.11-19.59.54:330][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:330][233]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-19.59.54:330][233]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-19.59.54:330][233]LogFbx: =================================================
+[2014.12.11-19.59.54:330][233]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-19.59.54:330][233]LogFbx: 	Total Deformer Count 344298176.
+[2014.12.11-19.59.54:330][233]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-19.59.54:330][233]LogFbx: =================================================
+[2014.12.11-19.59.54:330][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-19.59.54:330][233]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-19.59.54:330][233]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-19.59.54:364][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node BatteryBoy_Head : The relative matrices do not match
+[2014.12.11-19.59.54:364][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Eyes_Geo : The relative matrices do not match
+[2014.12.11-19.59.54:364][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node EyeSpec_Geo : The relative matrices do not match
+[2014.12.11-19.59.54:365][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node TeethTongue : The relative matrices do not match
+[2014.12.11-19.59.54:365][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node BodyAndHair : The relative matrices do not match
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster2) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster3) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster4) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster5) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster6) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster7) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster8) - BatteryBoy_Head
+[2014.12.11-19.59.54:365][233]LogFbx: Valid bind pose for Pose (skinCluster9) - BatteryBoy_Head
+[2014.12.11-19.59.54:366][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node BatteryBoy_Head : The relative matrices do not match
+[2014.12.11-19.59.54:366][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node Eyes_Geo : The relative matrices do not match
+[2014.12.11-19.59.54:366][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node EyeSpec_Geo : The relative matrices do not match
+[2014.12.11-19.59.54:366][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node TeethTongue : The relative matrices do not match
+[2014.12.11-19.59.54:367][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node BodyAndHair : The relative matrices do not match
+[2014.12.11-19.59.54:368][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node BatteryBoy_Head : The relative matrices do not match
+[2014.12.11-19.59.54:369][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node Eyes_Geo : The relative matrices do not match
+[2014.12.11-19.59.54:370][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node EyeSpec_Geo : The relative matrices do not match
+[2014.12.11-19.59.54:371][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node TeethTongue : The relative matrices do not match
+[2014.12.11-19.59.54:373][233]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node BodyAndHair : The relative matrices do not match
+[2014.12.11-19.59.54:395][233]LogFbx: Triangulating skeletal mesh BatteryBoy_Head
+[2014.12.11-19.59.56:311][233]LogFbx: Triangulating skeletal mesh Eyes_Geo
+[2014.12.11-19.59.56:704][233]LogFbx: Triangulating skeletal mesh EyeSpec_Geo
+[2014.12.11-19.59.57:079][233]LogFbx: Triangulating skeletal mesh TeethTongue
+[2014.12.11-19.59.57:792][233]LogFbx: Triangulating skeletal mesh BodyAndHair
+[2014.12.11-20.00.01:618][233]LogFbx:Warning: Bones digested - 86  Depth of hierarchy - 12
+[2014.12.11-20.00.04:632][233]LogSkeletalMesh: Chunk 0: 11245 rigid vertices, 7816 soft vertices, 70 active bones
+[2014.12.11-20.00.04:728][233]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 31713 triangles
+[2014.12.11-20.00.04:744][233]LogLinker:Warning: Can't find file '/Game/Architecture/Sam002_PhysicsAsset'
+[2014.12.11-20.00.04:757][233]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam002_PhysicsAsset.Sam002_PhysicsAsset'
+[2014.12.11-20.00.04:790][233]LogLinker:Warning: Can't find file '/Game/Architecture/Sam002_Skeleton'
+[2014.12.11-20.00.04:790][233]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam002_Skeleton.Sam002_Skeleton'
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.00.04:824][233]LogFbx: 	Total Deformer Count 258375040.
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.00.04:824][233]LogFbx: 	Total Deformer Count 193623256.
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.00.04:824][233]LogFbx: 	Total Deformer Count 344300032.
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.00.04:824][233]LogFbx: 	Total Deformer Count 344300032.
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.00.04:824][233]LogFbx: 	Total Deformer Count 344300032.
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.00.04:824][233]LogFbx: =================================================
+[2014.12.11-20.00.04:824][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:824][233]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.00.04:824][233]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 258375040.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 193617936.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 344300032.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 344300032.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 344300032.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 258375040.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 193617936.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 344300288.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.00.04:825][233]LogFbx: 	Total Deformer Count 344300288.
+[2014.12.11-20.00.04:825][233]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.00.04:825][233]LogFbx: =================================================
+[2014.12.11-20.00.04:825][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:826][233]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.00.04:826][233]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.00.04:826][233]LogFbx: =================================================
+[2014.12.11-20.00.04:826][233]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.00.04:826][233]LogFbx: 	Total Deformer Count 344300288.
+[2014.12.11-20.00.04:826][233]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.00.04:826][233]LogFbx: =================================================
+[2014.12.11-20.00.04:826][233]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.00.04:826][233]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.00.04:826][233]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(0) Null
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(1) Hips
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(2) LeftUpLeg
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(3) LeftLeg
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(4) LeftFoot
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(5) LeftToeBase
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(6) RightUpLeg
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(7) RightLeg
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(8) RightFoot
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(9) RightToeBase
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(10) Spine
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(11) Spine1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(12) Spine2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(13) Neck
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(14) Head
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(15) Left_Eye_Joint
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(16) Right_Eye_Joint
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(17) Jaw_Joint
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(18) LowerTeeth
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(19) Tongue1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(20) Tongue2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(21) UpperTeeth
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(22) Visor
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(23) Visor1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(24) HairAlwaysActive
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(25) HairB
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(26) HairB1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(27) HairB2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(28) HairA
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(29) HairA1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(30) HairA2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(31) HairF
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(32) HairF1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(33) HairG
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(34) HairG1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(35) HairUnderHelmet
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(36) HairC
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(37) HairC1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(38) HairD
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(39) HairD1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(40) HairE
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(41) HairE1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(42) HairH
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(43) HairH1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(44) HairI
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(45) HairI1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(46) HairJ
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(47) HairJ1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(48) LeftShoulder
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(49) LeftArm
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(50) LeftForeArm
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(51) LeftHand
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(52) LeftHandRing1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(53) LeftHandRing2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(54) LeftHandRing3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(55) LeftHandPinky1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(56) LeftHandPinky2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(57) LeftHandPinky3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(58) LeftHandMiddle1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(59) LeftHandMiddle2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(60) LeftHandMiddle3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(61) LeftHandIndex1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(62) LeftHandIndex2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(63) LeftHandIndex3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(64) LeftHandThumb1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(65) LeftHandThumb2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(66) LeftHandThumb3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(67) RightShoulder
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(68) RightArm
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(69) RightForeArm
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(70) RightHand
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(71) RightHandThumb1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(72) RightHandThumb2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(73) RightHandThumb3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(74) RightHandIndex1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(75) RightHandIndex2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(76) RightHandIndex3
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(77) RightHandMiddle1
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(78) RightHandMiddle2
+[2014.12.11-20.00.04:838][233]LogFbx: SortedLinks :(79) RightHandMiddle3
+[2014.12.11-20.00.04:839][233]LogFbx: SortedLinks :(80) RightHandRing1
+[2014.12.11-20.00.04:839][233]LogFbx: SortedLinks :(81) RightHandRing2
+[2014.12.11-20.00.04:839][233]LogFbx: SortedLinks :(82) RightHandRing3
+[2014.12.11-20.00.04:839][233]LogFbx: SortedLinks :(83) RightHandPinky1
+[2014.12.11-20.00.04:839][233]LogFbx: SortedLinks :(84) RightHandPinky2
+[2014.12.11-20.00.04:839][233]LogFbx: SortedLinks :(85) RightHandPinky3
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(0) Null
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(1) Hips
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(2) LeftUpLeg
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(3) LeftLeg
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(4) LeftFoot
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(5) LeftToeBase
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(6) RightUpLeg
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(7) RightLeg
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(8) RightFoot
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(9) RightToeBase
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(10) Spine
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(11) Spine1
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(12) Spine2
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(13) Neck
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(14) Head
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(15) Left_Eye_Joint
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(16) Right_Eye_Joint
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(17) Jaw_Joint
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(18) LowerTeeth
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(19) Tongue1
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(20) Tongue2
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(21) UpperTeeth
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(22) Visor
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(23) Visor1
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(24) HairAlwaysActive
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(25) HairB
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(26) HairB1
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(27) HairB2
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(28) HairA
+[2014.12.11-20.00.04:903][233]LogFbx: SortedLinks :(29) HairA1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(30) HairA2
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(31) HairF
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(32) HairF1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(33) HairG
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(34) HairG1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(35) HairUnderHelmet
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(36) HairC
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(37) HairC1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(38) HairD
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(39) HairD1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(40) HairE
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(41) HairE1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(42) HairH
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(43) HairH1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(44) HairI
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(45) HairI1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(46) HairJ
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(47) HairJ1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(48) LeftShoulder
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(49) LeftArm
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(50) LeftForeArm
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(51) LeftHand
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(52) LeftHandRing1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(53) LeftHandRing2
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(54) LeftHandRing3
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(55) LeftHandPinky1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(56) LeftHandPinky2
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(57) LeftHandPinky3
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(58) LeftHandMiddle1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(59) LeftHandMiddle2
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(60) LeftHandMiddle3
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(61) LeftHandIndex1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(62) LeftHandIndex2
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(63) LeftHandIndex3
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(64) LeftHandThumb1
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(65) LeftHandThumb2
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(66) LeftHandThumb3
+[2014.12.11-20.00.04:904][233]LogFbx: SortedLinks :(67) RightShoulder
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(68) RightArm
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(69) RightForeArm
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(70) RightHand
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(71) RightHandThumb1
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(72) RightHandThumb2
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(73) RightHandThumb3
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(74) RightHandIndex1
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(75) RightHandIndex2
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(76) RightHandIndex3
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(77) RightHandMiddle1
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(78) RightHandMiddle2
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(79) RightHandMiddle3
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(80) RightHandRing1
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(81) RightHandRing2
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(82) RightHandRing3
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(83) RightHandPinky1
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(84) RightHandPinky2
+[2014.12.11-20.00.04:905][233]LogFbx: SortedLinks :(85) RightHandPinky3
+[2014.12.11-20.00.04:907][233]LogFbx: Parsing AnimStack Take 001
+[2014.12.11-20.00.04:928][233]LogLinker:Warning: Can't find file '/Game/Architecture/Sam002_Anim_Take_001'
+[2014.12.11-20.00.04:928][233]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam002_Anim_Take_001.Sam002_Anim_Take_001'
+[2014.12.11-20.00.05:901][233]LogFbx: Parsing AnimStack Scenes-028
+[2014.12.11-20.00.06:720][233]LogLinker:Warning: Can't find file '/Game/Architecture/Sam002_Anim_Scenes-028'
+[2014.12.11-20.00.06:720][233]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam002_Anim_Scenes-028.Sam002_Anim_Scenes-028'
+[2014.12.11-20.00.24:622][233]FBXImport:Warning: Warning Warning: The following bones are missing from the bind pose.  This can happen for bones that are not vert weighted.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+ 
+[2014.12.11-20.00.24:694][233]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.11-20.00.24:695][233]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.12.11-20.00.37:268][880]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam002)
+[2014.12.11-20.00.37:358][881]LogEditorViewport: Clicking on Actor (double click): SkeletalMeshActor (Sam002)
+[2014.12.11-20.00.38:081][921]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam002)
+[2014.12.11-20.00.38:170][922]LogEditorViewport: Clicking on Actor (double click): SkeletalMeshActor (Sam002)
+[2014.12.11-20.00.40:464][985]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2014.12.11-20.00.41:066][985]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.12.11-20.00.48:343][305]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Sam002)
+[2014.12.11-20.00.50:200][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.12.11-20.00.51:078][444]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam002)
+[2014.12.11-20.00.51:511][468]Cmd: DELETE
+[2014.12.11-20.00.51:511][468]Cmd: ACTOR DELETE
+[2014.12.11-20.00.51:631][468]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2014.12.11-20.00.51:667][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C611D18360
+[2014.12.11-20.00.51:667][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C612148A40
+[2014.12.11-20.00.51:668][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60B8BC860
+[2014.12.11-20.00.51:670][468]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2014.12.11-20.00.54:659][665]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2014.12.11-20.00.54:759][665]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.12.11-20.01.26:740][508]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Work/New folder/CloudFactory/Animations/!Saves/Scene 14-15/Sam003.fbx)
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: MotionBuilder_System, ItemCount : 28
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: Model, ItemCount : 107
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: NodeAttribute, ItemCount : 102
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: MotionBuilder_Generic, ItemCount : 7
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: Geometry, ItemCount : 5
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: Pose, ItemCount : 11
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: Deformer, ItemCount : 107
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: Character, ItemCount : 1
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: AnimationCurveNode, ItemCount : 240
+[2014.12.11-20.01.26:793][508]LogFbx: ItemName: AnimationCurve, ItemCount : 359
+[2014.12.11-20.01.28:486][508]LogFbx: Loading FBX Scene from ../../../../../../Work/New folder/CloudFactory/Animations/!Saves/Scene 14-15/Sam003.fbx
+[2014.12.11-20.01.28:640][508]LogFbx: FBX Scene Loaded Succesfully
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.01.28:659][508]LogFbx: 	Total Deformer Count 2078114016.
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.01.28:659][508]LogFbx: 	Total Deformer Count 365463440.
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.01.28:659][508]LogFbx: 	Total Deformer Count 289392448.
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.01.28:659][508]LogFbx: 	Total Deformer Count 289392448.
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:659][508]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.01.28:659][508]LogFbx: 	Total Deformer Count 289392448.
+[2014.12.11-20.01.28:659][508]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.01.28:659][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 2078114016.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 365469712.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 289392448.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 289392448.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 289392448.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 2078114016.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 365469712.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 289392512.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 289392512.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.01.28:660][508]LogFbx: 	Total Deformer Count 289392512.
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.01.28:660][508]LogFbx: =================================================
+[2014.12.11-20.01.28:660][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.28:660][508]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.01.28:660][508]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.01.28:664][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node BatteryBoy_Head : The relative matrices do not match
+[2014.12.11-20.01.28:664][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node Eyes_Geo : The relative matrices do not match
+[2014.12.11-20.01.28:664][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node EyeSpec_Geo : The relative matrices do not match
+[2014.12.11-20.01.28:664][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node TeethTongue : The relative matrices do not match
+[2014.12.11-20.01.28:664][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster1) - Node BodyAndHair : The relative matrices do not match
+[2014.12.11-20.01.28:664][508]LogFbx: Valid bind pose for Pose (skinCluster2) - BatteryBoy_Head
+[2014.12.11-20.01.28:664][508]LogFbx: Valid bind pose for Pose (skinCluster3) - BatteryBoy_Head
+[2014.12.11-20.01.28:664][508]LogFbx: Valid bind pose for Pose (skinCluster4) - BatteryBoy_Head
+[2014.12.11-20.01.28:664][508]LogFbx: Valid bind pose for Pose (skinCluster5) - BatteryBoy_Head
+[2014.12.11-20.01.28:664][508]LogFbx: Valid bind pose for Pose (skinCluster6) - BatteryBoy_Head
+[2014.12.11-20.01.28:664][508]LogFbx: Valid bind pose for Pose (skinCluster7) - BatteryBoy_Head
+[2014.12.11-20.01.28:665][508]LogFbx: Valid bind pose for Pose (skinCluster8) - BatteryBoy_Head
+[2014.12.11-20.01.28:665][508]LogFbx: Valid bind pose for Pose (skinCluster9) - BatteryBoy_Head
+[2014.12.11-20.01.28:665][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node BatteryBoy_Head : The relative matrices do not match
+[2014.12.11-20.01.28:665][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node Eyes_Geo : The relative matrices do not match
+[2014.12.11-20.01.28:665][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node EyeSpec_Geo : The relative matrices do not match
+[2014.12.11-20.01.28:666][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node TeethTongue : The relative matrices do not match
+[2014.12.11-20.01.28:666][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster10) - Node BodyAndHair : The relative matrices do not match
+[2014.12.11-20.01.28:667][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node BatteryBoy_Head : The relative matrices do not match
+[2014.12.11-20.01.28:668][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node Eyes_Geo : The relative matrices do not match
+[2014.12.11-20.01.28:669][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node EyeSpec_Geo : The relative matrices do not match
+[2014.12.11-20.01.28:671][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node TeethTongue : The relative matrices do not match
+[2014.12.11-20.01.28:672][508]LogFbx:Warning: Not valid bind pose for Pose (skinCluster11) - Node BodyAndHair : The relative matrices do not match
+[2014.12.11-20.01.28:686][508]LogFbx: Triangulating skeletal mesh BatteryBoy_Head
+[2014.12.11-20.01.30:558][508]LogFbx: Triangulating skeletal mesh Eyes_Geo
+[2014.12.11-20.01.30:944][508]LogFbx: Triangulating skeletal mesh EyeSpec_Geo
+[2014.12.11-20.01.31:321][508]LogFbx: Triangulating skeletal mesh TeethTongue
+[2014.12.11-20.01.32:038][508]LogFbx: Triangulating skeletal mesh BodyAndHair
+[2014.12.11-20.01.35:793][508]LogFbx:Warning: Bones digested - 86  Depth of hierarchy - 12
+[2014.12.11-20.01.38:730][508]LogSkeletalMesh: Chunk 0: 11245 rigid vertices, 7816 soft vertices, 70 active bones
+[2014.12.11-20.01.38:792][508]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 31713 triangles
+[2014.12.11-20.01.38:800][508]LogLinker:Warning: Can't find file '/Game/Architecture/Sam003_PhysicsAsset'
+[2014.12.11-20.01.38:800][508]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam003_PhysicsAsset.Sam003_PhysicsAsset'
+[2014.12.11-20.01.38:807][508]LogLinker:Warning: Can't find file '/Game/Architecture/Sam003_Skeleton'
+[2014.12.11-20.01.38:807][508]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam003_Skeleton.Sam003_Skeleton'
+[2014.12.11-20.01.38:816][508]LogFbx: =================================================
+[2014.12.11-20.01.38:816][508]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.01.38:816][508]LogFbx: 	Total Deformer Count 328351104.
+[2014.12.11-20.01.38:816][508]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.01.38:816][508]LogFbx: =================================================
+[2014.12.11-20.01.38:816][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:816][508]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.01.38:816][508]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.01.38:816][508]LogFbx: =================================================
+[2014.12.11-20.01.38:816][508]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.01.38:816][508]LogFbx: 	Total Deformer Count 365476264.
+[2014.12.11-20.01.38:816][508]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.01.38:816][508]LogFbx: =================================================
+[2014.12.11-20.01.38:816][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:816][508]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.01.38:816][508]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.01.38:816][508]LogFbx: =================================================
+[2014.12.11-20.01.38:816][508]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.01.38:816][508]LogFbx: 	Total Deformer Count 289391360.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 289391360.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 289391360.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 328351104.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 365463440.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 289391360.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 289391360.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:817][508]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.01.38:817][508]LogFbx: 	Total Deformer Count 289391360.
+[2014.12.11-20.01.38:817][508]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.01.38:817][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node START [BatteryBoy_Head] 
+[2014.12.11-20.01.38:818][508]LogFbx: 	Total Deformer Count 328351104.
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node 1]  (Type Skin).
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node Attribute Child 1] BatteryBoy_Head (Type Mesh).
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node END [BatteryBoy_Head]
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node START [Eyes_Geo] 
+[2014.12.11-20.01.38:818][508]LogFbx: 	Total Deformer Count 365463440.
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node 1] 5 (Type Skin).
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node Attribute Child 1] Eyes_Geo (Type Mesh).
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node END [Eyes_Geo]
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node START [EyeSpec_Geo] 
+[2014.12.11-20.01.38:818][508]LogFbx: 	Total Deformer Count 289390912.
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node 1] 6 (Type Skin).
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node Attribute Child 1] EyeSpec_Geo (Type Mesh).
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node END [EyeSpec_Geo]
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node START [TeethTongue] 
+[2014.12.11-20.01.38:818][508]LogFbx: 	Total Deformer Count 289390912.
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node 1] 9 (Type Skin).
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node Attribute Child 1] TeethTongue (Type Mesh).
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node END [TeethTongue]
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node START [BodyAndHair] 
+[2014.12.11-20.01.38:818][508]LogFbx: 	Total Deformer Count 289390912.
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node 1] 10 (Type Skin).
+[2014.12.11-20.01.38:818][508]LogFbx: =================================================
+[2014.12.11-20.01.38:818][508]LogFbx: 	Attribute () Type (4).
+[2014.12.11-20.01.38:818][508]LogFbx: 		[Node Attribute Child 1] BodyAndHair (Type Mesh).
+[2014.12.11-20.01.38:818][508]LogFbx: Dumping Node END [BodyAndHair]
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(0) Null
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(1) Hips
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(2) LeftUpLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(3) LeftLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(4) LeftFoot
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(5) LeftToeBase
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(6) RightUpLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(7) RightLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(8) RightFoot
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(9) RightToeBase
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(10) Spine
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(11) Spine1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(12) Spine2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(13) Neck
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(14) Head
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(15) Left_Eye_Joint
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(16) Right_Eye_Joint
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(17) Jaw_Joint
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(18) LowerTeeth
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(19) Tongue1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(20) Tongue2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(21) UpperTeeth
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(22) Visor
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(23) Visor1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(24) HairAlwaysActive
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(25) HairB
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(26) HairB1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(27) HairB2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(28) HairA
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(29) HairA1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(30) HairA2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(31) HairF
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(32) HairF1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(33) HairG
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(34) HairG1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(35) HairUnderHelmet
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(36) HairC
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(37) HairC1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(38) HairD
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(39) HairD1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(40) HairE
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(41) HairE1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(42) HairH
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(43) HairH1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(44) HairI
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(45) HairI1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(46) HairJ
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(47) HairJ1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(48) LeftShoulder
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(49) LeftArm
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(50) LeftForeArm
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(51) LeftHand
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(52) LeftHandRing1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(53) LeftHandRing2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(54) LeftHandRing3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(55) LeftHandPinky1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(56) LeftHandPinky2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(57) LeftHandPinky3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(58) LeftHandMiddle1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(59) LeftHandMiddle2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(60) LeftHandMiddle3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(61) LeftHandIndex1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(62) LeftHandIndex2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(63) LeftHandIndex3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(64) LeftHandThumb1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(65) LeftHandThumb2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(66) LeftHandThumb3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(67) RightShoulder
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(68) RightArm
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(69) RightForeArm
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(70) RightHand
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(71) RightHandThumb1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(72) RightHandThumb2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(73) RightHandThumb3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(74) RightHandIndex1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(75) RightHandIndex2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(76) RightHandIndex3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(77) RightHandMiddle1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(78) RightHandMiddle2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(79) RightHandMiddle3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(80) RightHandRing1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(81) RightHandRing2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(82) RightHandRing3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(83) RightHandPinky1
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(84) RightHandPinky2
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(85) RightHandPinky3
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(0) Null
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(1) Hips
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(2) LeftUpLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(3) LeftLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(4) LeftFoot
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(5) LeftToeBase
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(6) RightUpLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(7) RightLeg
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(8) RightFoot
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(9) RightToeBase
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(10) Spine
+[2014.12.11-20.01.38:820][508]LogFbx: SortedLinks :(11) Spine1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(12) Spine2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(13) Neck
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(14) Head
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(15) Left_Eye_Joint
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(16) Right_Eye_Joint
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(17) Jaw_Joint
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(18) LowerTeeth
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(19) Tongue1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(20) Tongue2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(21) UpperTeeth
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(22) Visor
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(23) Visor1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(24) HairAlwaysActive
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(25) HairB
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(26) HairB1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(27) HairB2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(28) HairA
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(29) HairA1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(30) HairA2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(31) HairF
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(32) HairF1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(33) HairG
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(34) HairG1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(35) HairUnderHelmet
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(36) HairC
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(37) HairC1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(38) HairD
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(39) HairD1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(40) HairE
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(41) HairE1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(42) HairH
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(43) HairH1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(44) HairI
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(45) HairI1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(46) HairJ
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(47) HairJ1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(48) LeftShoulder
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(49) LeftArm
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(50) LeftForeArm
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(51) LeftHand
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(52) LeftHandRing1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(53) LeftHandRing2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(54) LeftHandRing3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(55) LeftHandPinky1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(56) LeftHandPinky2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(57) LeftHandPinky3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(58) LeftHandMiddle1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(59) LeftHandMiddle2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(60) LeftHandMiddle3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(61) LeftHandIndex1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(62) LeftHandIndex2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(63) LeftHandIndex3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(64) LeftHandThumb1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(65) LeftHandThumb2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(66) LeftHandThumb3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(67) RightShoulder
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(68) RightArm
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(69) RightForeArm
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(70) RightHand
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(71) RightHandThumb1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(72) RightHandThumb2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(73) RightHandThumb3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(74) RightHandIndex1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(75) RightHandIndex2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(76) RightHandIndex3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(77) RightHandMiddle1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(78) RightHandMiddle2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(79) RightHandMiddle3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(80) RightHandRing1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(81) RightHandRing2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(82) RightHandRing3
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(83) RightHandPinky1
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(84) RightHandPinky2
+[2014.12.11-20.01.38:821][508]LogFbx: SortedLinks :(85) RightHandPinky3
+[2014.12.11-20.01.38:822][508]LogFbx: Parsing AnimStack Take 001
+[2014.12.11-20.01.38:823][508]LogLinker:Warning: Can't find file '/Game/Architecture/Sam003_Anim_Take_001'
+[2014.12.11-20.01.38:823][508]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam003_Anim_Take_001.Sam003_Anim_Take_001'
+[2014.12.11-20.01.39:819][508]LogFbx: Parsing AnimStack Scenes-028
+[2014.12.11-20.01.39:905][508]LogLinker:Warning: Can't find file '/Game/Architecture/Sam003_Anim_Scenes-028'
+[2014.12.11-20.01.39:905][508]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Architecture/Sam003_Anim_Scenes-028.Sam003_Anim_Scenes-028'
+[2014.12.11-20.02.24:234][508]FBXImport:Warning: Warning Warning: The following bones are missing from the bind pose.  This can happen for bones that are not vert weighted.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+ 
+[2014.12.11-20.02.24:251][508]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.12.11-20.02.24:251][508]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.12.11-20.02.28:895][819]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2014.12.11-20.02.32:492][ 21]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2014.12.11-20.02.32:574][ 21]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.12.11-20.07.24:238][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C615D6D800
+[2014.12.11-20.07.24:238][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66C4C3060
+[2014.12.11-20.07.24:238][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C626E19B20
+[2014.12.11-20.07.24:238][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60F6614E0
+[2014.12.11-20.07.24:239][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66D4DE840
+[2014.12.11-20.07.24:276][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66DA971A0
+[2014.12.11-20.07.24:277][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C67F6B28E0
+[2014.12.11-20.07.25:567][138]LogSavePackage: Save=1216.648071ms
+[2014.12.11-20.07.25:567][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/basementfloorscenelights_Auto125B26146495A47309E771686AACD370B.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Maps/basementfloorscenelights_Auto1.umap'
+[2014.12.11-20.07.25:579][138]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/basementfloorscenelights' took 1.385
+[2014.12.11-20.07.25:579][138]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.385
+[2014.12.11-20.07.25:616][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/Sam002] ([1] browsable assets)...
+[2014.12.11-20.07.25:651][138]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Architecture/Sam002.Sam002]
+[2014.12.11-20.07.25:651][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam002]
+[2014.12.11-20.07.26:033][138]LogSavePackage: Save=357.902893ms
+[2014.12.11-20.07.26:033][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_Auto14EEFB2B94E0444A5D523A49EA352E3C9.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam002_Auto1.uasset'
+[2014.12.11-20.07.26:052][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Architecture/Sam002_PhysicsAsset] ([1] browsable assets)...
+[2014.12.11-20.07.26:060][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam002_PhysicsAsset]
+[2014.12.11-20.07.26:116][138]LogSavePackage: Save=23.609915ms
+[2014.12.11-20.07.26:116][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_PhysicsAsset_Auto1E6A0E3FD4A4B92F1BA98FA8949B7D9DE.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam002_PhysicsAsset_Auto1.uasset'
+[2014.12.11-20.07.26:133][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Architecture/Sam002_Skeleton] ([1] browsable assets)...
+[2014.12.11-20.07.26:143][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam002_Skeleton]
+[2014.12.11-20.07.26:187][138]LogSavePackage: Save=11.492802ms
+[2014.12.11-20.07.26:188][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_Skeleton_Auto1588AC93244EDD6124274C58864E7FEF4.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam002_Skeleton_Auto1.uasset'
+[2014.12.11-20.07.26:207][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/Sam002_Anim_Take_001] ([1] browsable assets)...
+[2014.12.11-20.07.26:251][138]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Architecture/Sam002_Anim_Take_001.Sam002_Anim_Take_001]
+[2014.12.11-20.07.26:251][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam002_Anim_Take_001]
+[2014.12.11-20.07.26:570][138]LogSavePackage: Save=293.312836ms
+[2014.12.11-20.07.26:570][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_Anim_Take_001_Auto16D9D9CA947BEE7F3929F95AC8B2EF2CA.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam002_Anim_Take_001_Auto1.uasset'
+[2014.12.11-20.07.26:590][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/Sam002_Anim_Scenes-028] ([1] browsable assets)...
+[2014.12.11-20.07.26:633][138]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Architecture/Sam002_Anim_Scenes-028.Sam002_Anim_Scenes-028]
+[2014.12.11-20.07.26:634][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam002_Anim_Scenes-028]
+[2014.12.11-20.07.26:958][138]LogSavePackage: Save=297.919159ms
+[2014.12.11-20.07.26:958][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_Anim_Scenes-028_Auto15DF335994A1FDFA17A0E478ACCA0843C.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam002_Anim_Scenes-028_Auto1.uasset'
+[2014.12.11-20.07.26:976][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/Sam003] ([1] browsable assets)...
+[2014.12.11-20.07.27:016][138]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Architecture/Sam003.Sam003]
+[2014.12.11-20.07.27:016][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam003]
+[2014.12.11-20.07.27:378][138]LogSavePackage: Save=332.443024ms
+[2014.12.11-20.07.27:378][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_Auto13724DF2F474381CFC50DB6A4E75706E4.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam003_Auto1.uasset'
+[2014.12.11-20.07.27:394][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Architecture/Sam003_PhysicsAsset] ([1] browsable assets)...
+[2014.12.11-20.07.27:409][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam003_PhysicsAsset]
+[2014.12.11-20.07.27:469][138]LogSavePackage: Save=28.023603ms
+[2014.12.11-20.07.27:469][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_PhysicsAsset_Auto1771F16FF462AEED100EFD79B2BDEF248.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam003_PhysicsAsset_Auto1.uasset'
+[2014.12.11-20.07.27:486][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Architecture/Sam003_Skeleton] ([1] browsable assets)...
+[2014.12.11-20.07.27:493][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam003_Skeleton]
+[2014.12.11-20.07.27:537][138]LogSavePackage: Save=13.149158ms
+[2014.12.11-20.07.27:537][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_Skeleton_Auto1042B56FB4A2F69DC7DCBA7AC276D0A8C.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam003_Skeleton_Auto1.uasset'
+[2014.12.11-20.07.27:556][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/Sam003_Anim_Take_001] ([1] browsable assets)...
+[2014.12.11-20.07.27:581][138]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Architecture/Sam003_Anim_Take_001.Sam003_Anim_Take_001]
+[2014.12.11-20.07.27:581][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam003_Anim_Take_001]
+[2014.12.11-20.07.27:908][138]LogSavePackage: Save=300.508301ms
+[2014.12.11-20.07.27:909][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_Anim_Take_001_Auto1CD2CE1104062428F07B42783FEC039FD.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam003_Anim_Take_001_Auto1.uasset'
+[2014.12.11-20.07.27:928][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/Sam003_Anim_Scenes-028] ([1] browsable assets)...
+[2014.12.11-20.07.27:967][138]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Architecture/Sam003_Anim_Scenes-028.Sam003_Anim_Scenes-028]
+[2014.12.11-20.07.27:967][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/Sam003_Anim_Scenes-028]
+[2014.12.11-20.07.28:327][138]LogSavePackage: Save=335.175903ms
+[2014.12.11-20.07.28:327][138]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_Anim_Scenes-028_Auto145C529614D47CD34A4B0A09528887AE8.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Autosaves/Game/Architecture/Sam003_Anim_Scenes-028_Auto1.uasset'
+[2014.12.11-20.07.28:336][138]LogFileHelpers: Auto-saving content packages took 2.757
+[2014.12.11-20.09.08:941][499]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.09.12:277][685]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.09.15:061][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Sam002" FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002.uasset" SILENT=true
+[2014.12.11-20.09.15:392][696]LogSavePackage: Save=327.058899ms
+[2014.12.11-20.09.15:392][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam0021BBFE28E41AD0D1CE622B0AD73FB9940.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002.uasset'
+[2014.12.11-20.09.15:723][696]LogSavePackage: Save=302.917542ms
+[2014.12.11-20.09.15:723][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_Anim_Scenes-0281A95284C4582DDF924ECBE9B521754CE.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002_Anim_Scenes-028.uasset'
+[2014.12.11-20.09.16:042][696]LogSavePackage: Save=291.840302ms
+[2014.12.11-20.09.16:042][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_Anim_Take_001A9D5C5BC46E3685B7033CCA09CF029AE.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002_Anim_Take_001.uasset'
+[2014.12.11-20.09.16:052][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Sam002_PhysicsAsset" FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002_PhysicsAsset.uasset" SILENT=true
+[2014.12.11-20.09.16:073][696]LogSavePackage: Save=17.847870ms
+[2014.12.11-20.09.16:073][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_PhysicsAsset47B83C9A4347E326FA0C929257539E3C.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002_PhysicsAsset.uasset'
+[2014.12.11-20.09.16:083][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Sam002_Skeleton" FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002_Skeleton.uasset" SILENT=true
+[2014.12.11-20.09.16:091][696]LogSavePackage: Save=6.205956ms
+[2014.12.11-20.09.16:092][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam002_SkeletonA9C2A23A421CC50E5677C2B8EFCD2B35.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam002_Skeleton.uasset'
+[2014.12.11-20.09.16:115][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Sam003" FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003.uasset" SILENT=true
+[2014.12.11-20.09.16:448][696]LogSavePackage: Save=330.113953ms
+[2014.12.11-20.09.16:448][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003B6C1682247D886213B69DC8D6C62D809.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003.uasset'
+[2014.12.11-20.09.16:800][696]LogSavePackage: Save=322.563049ms
+[2014.12.11-20.09.16:800][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_Anim_Scenes-02820E5585A4EE128CEAB18EBB9B8139745.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003_Anim_Scenes-028.uasset'
+[2014.12.11-20.09.17:121][696]LogSavePackage: Save=292.173737ms
+[2014.12.11-20.09.17:121][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_Anim_Take_001944537B046E771161C61DEBC36FFBDCA.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003_Anim_Take_001.uasset'
+[2014.12.11-20.09.17:133][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Sam003_PhysicsAsset" FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003_PhysicsAsset.uasset" SILENT=true
+[2014.12.11-20.09.17:152][696]LogSavePackage: Save=17.263157ms
+[2014.12.11-20.09.17:152][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_PhysicsAsset5BCBCEA347E6AFD91EB5DFAE9C8F93BC.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003_PhysicsAsset.uasset'
+[2014.12.11-20.09.17:163][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Sam003_Skeleton" FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003_Skeleton.uasset" SILENT=true
+[2014.12.11-20.09.17:170][696]LogSavePackage: Save=5.765956ms
+[2014.12.11-20.09.17:170][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/Sam003_SkeletonCC96904945FBD3F9AC7D26B97F867769.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Architecture/Sam003_Skeleton.uasset'
+[2014.12.11-20.09.18:483][696]LogSavePackage: Save=1138.259644ms
+[2014.12.11-20.09.18:483][696]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/basementfloorscenelightsB9D553334B4CE2EA6ACE69B3F0A8F34A.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Maps/basementfloorscenelights.umap'
+[2014.12.11-20.09.18:520][696]LogFileHelpers: Saving map 'basementfloorscenelights' took 1.344
+[2014.12.11-20.09.18:525][696]Cmd: MAP LOAD FILE="../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Maps/bossofficescenelights.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.11-20.09.18:525][696]LightingResults: New page: Lighting Build
+[2014.12.11-20.09.18:565][696]LoadErrors: New page: Loading map: bossofficescenelights.umap
+[2014.12.11-20.09.18:594][696]MapCheck: New page: Map Check
+[2014.12.11-20.09.18:595][696]LightingResults: New page: Lighting Build
+[2014.12.11-20.09.18:673][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C603E74A40
+[2014.12.11-20.09.18:845][696]LogTexture:Display: Building textures: officeTexture (AutoDXT)
+[2014.12.11-20.09.19:582][696]LogMaterial: Missing cached shader map for material officeTexture_Mat, compiling.
+[2014.12.11-20.09.19:770][696]LogMaterial: Missing cached shader map for material wallPanel_texture_Mat, compiling.
+[2014.12.11-20.09.20:691][696]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.11-20.09.21:119][696]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.12.11-20.09.21:220][696]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.12.11-20.09.21:332][696]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.12.11-20.09.21:371][696]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2014.12.11-20.09.21:426][696]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.12.11-20.09.21:451][696]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.12.11-20.09.21:453][696]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2014.12.11-20.09.21:460][696]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.12.11-20.09.21:578][696]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.12.11-20.09.22:090][696]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.12.11-20.09.22:540][696]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.12.11-20.09.22:956][696]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.12.11-20.09.23:379][696]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.12.11-20.09.23:716][696]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.12.11-20.09.23:733][696]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.12.11-20.09.23:807][696]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.12.11-20.09.23:900][696]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.11-20.09.24:179][696]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.12.11-20.09.24:265][696]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.12.11-20.09.24:349][696]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.12.11-20.09.24:378][696]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.12.11-20.09.24:409][696]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2014.12.11-20.09.24:420][696]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.12.11-20.09.24:422][696]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2014.12.11-20.09.24:430][696]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2014.12.11-20.09.24:516][696]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.12.11-20.09.24:760][696]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.12.11-20.09.24:967][696]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.12.11-20.09.25:190][696]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.12.11-20.09.25:434][696]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.12.11-20.09.25:585][696]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.12.11-20.09.25:596][696]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.12.11-20.09.25:635][696]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.12.11-20.09.25:737][696]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2014.12.11-20.09.26:182][696]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8)
+[2014.12.11-20.09.26:588][696]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (BGRA8)
+[2014.12.11-20.09.26:928][696]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (BGRA8)
+[2014.12.11-20.09.26:989][696]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (BGRA8)
+[2014.12.11-20.09.26:997][696]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (BGRA8)
+[2014.12.11-20.09.27:008][696]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (BGRA8)
+[2014.12.11-20.09.27:016][696]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (BGRA8)
+[2014.12.11-20.09.27:033][696]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (BGRA8)
+[2014.12.11-20.09.27:048][696]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (BGRA8)
+[2014.12.11-20.09.27:052][696]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8)
+[2014.12.11-20.09.27:056][696]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (BGRA8)
+[2014.12.11-20.09.27:061][696]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (BGRA8)
+[2014.12.11-20.09.27:063][696]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (BGRA8)
+[2014.12.11-20.09.27:067][696]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (BGRA8)
+[2014.12.11-20.09.27:279][696]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.11-20.09.27:281][696]LogAIModule: Creating AISystem for world bossofficescenelights
+[2014.12.11-20.09.27:318][696]Cmd: MAP CHECKDEP
+[2014.12.11-20.09.27:318][696]MapCheck: New page: bossofficescenelights - Dec 11, 2014, 6:09:27 AM
+[2014.12.11-20.09.27:493][696]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.543ms to complete.
+[2014.12.11-20.09.27:493][696]LogFileHelpers: Loading map 'bossofficescenelights' took 8.972
+[2014.12.11-20.09.31:983][797]MapCheck: New page: Map Check
+[2014.12.11-20.09.32:075][797]Cmd: MAP REBUILD ALLVISIBLE
+[2014.12.11-20.09.32:080][797]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.12.11-20.09.33:083][797]LightingResults: New page: Lighting Build - Dec 11, 2014, 6:09:33 AM
+[2014.12.11-20.09.36:798][797]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.12.11-20.09.36:798][797]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.12.11-20.09.36:798][797]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.12.11-20.09.36:798][797]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.12.11-20.09.36:798][797]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.12.11-20.09.36:971][797]LogEditorBuildUtils: Build time 0:00:04
+[2014.12.11-20.09.37:476][804]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer officeTexture_Mat, compiling.
+[2014.12.11-20.09.37:478][804]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer officeTexture_Mat, compiling.
+[2014.12.11-20.09.37:630][807]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wallPanel_texture_Mat, compiling.
+[2014.12.11-20.09.37:633][807]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wallPanel_texture_Mat, compiling.
+[2014.12.11-20.11.26:076][223]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.26:076][223]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.26:734][225]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.26:734][225]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.28:737][231]LightingResults:Error: Error fan Object has wrapping UVs.
+[2014.12.11-20.11.28:737][231]LightingResults:Error: Error fan Object has overlapping UVs.
+[2014.12.11-20.11.28:737][231]LightingResults: Info fan Lightmap UV are overlapping by 89.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.31:403][239]LightingResults:Error: Error phone2 Object has wrapping UVs.
+[2014.12.11-20.11.31:403][239]LightingResults:Error: Error phone2 Object has overlapping UVs.
+[2014.12.11-20.11.31:404][239]LightingResults: Info phone2 Lightmap UV are overlapping by 83.2%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.33:073][244]LightingResults:Error: Error paper Object has wrapping UVs.
+[2014.12.11-20.11.33:073][244]LightingResults:Error: Error paper Object has overlapping UVs.
+[2014.12.11-20.11.33:073][244]LightingResults: Info paper Lightmap UV are overlapping by 98.7%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.34:073][247]LightingResults:Error: Error bossChair Object has overlapping UVs.
+[2014.12.11-20.11.34:073][247]LightingResults: Info bossChair Lightmap UV are overlapping by 70.9%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.34:406][248]LightingResults:Error: Error cielingfan Object has overlapping UVs.
+[2014.12.11-20.11.34:406][248]LightingResults: Info cielingfan Lightmap UV are overlapping by 98.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.35:406][251]LightingResults:Error: Error fan Object has wrapping UVs.
+[2014.12.11-20.11.35:406][251]LightingResults:Error: Error fan Object has overlapping UVs.
+[2014.12.11-20.11.35:406][251]LightingResults: Info fan Lightmap UV are overlapping by 89.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.36:739][255]LightingResults:Error: Error vana_defaultrender Object has overlapping UVs.
+[2014.12.11-20.11.36:739][255]LightingResults: Info vana_defaultrender Lightmap UV are overlapping by 86.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.38:073][259]LightingResults:Error: Error vana_defaultrender Object has overlapping UVs.
+[2014.12.11-20.11.38:073][259]LightingResults: Info vana_defaultrender Lightmap UV are overlapping by 86.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.38:073][259]LightingResults:Error: Error phone2 Object has wrapping UVs.
+[2014.12.11-20.11.38:074][259]LightingResults:Error: Error phone2 Object has overlapping UVs.
+[2014.12.11-20.11.38:074][259]LightingResults: Info phone2 Lightmap UV are overlapping by 83.2%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.39:739][264]LightingResults:Error: Error bosslamp Object has overlapping UVs.
+[2014.12.11-20.11.39:740][264]LightingResults: Info bosslamp Lightmap UV are overlapping by 64.9%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.40:406][266]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.40:406][266]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.41:073][268]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.41:074][268]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.42:074][271]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.42:074][271]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.42:408][272]LightingResults:Error: Error Filter Object has wrapping UVs.
+[2014.12.11-20.11.42:408][272]LightingResults:Error: Error Filter Object has overlapping UVs.
+[2014.12.11-20.11.42:408][272]LightingResults: Info Filter Lightmap UV are overlapping by 98.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.42:741][273]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.42:742][273]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.43:742][276]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.43:742][276]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.44:742][279]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.44:743][279]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.45:083][280]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.45:083][280]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.45:411][281]LightingResults:Error: Error tank Object has wrapping UVs.
+[2014.12.11-20.11.45:411][281]LightingResults:Error: Error tank Object has overlapping UVs.
+[2014.12.11-20.11.45:411][281]LightingResults: Info tank Lightmap UV are overlapping by 97.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.48:076][289]LightingResults:Error: Error thing Object has wrapping UVs.
+[2014.12.11-20.11.48:077][289]LightingResults:Error: Error thing Object has overlapping UVs.
+[2014.12.11-20.11.48:077][289]LightingResults: Info thing Lightmap UV are overlapping by 98.5%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.48:743][291]LightingResults:Error: Error paper Object has wrapping UVs.
+[2014.12.11-20.11.48:743][291]LightingResults:Error: Error paper Object has overlapping UVs.
+[2014.12.11-20.11.48:744][291]LightingResults: Info paper Lightmap UV are overlapping by 98.7%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.48:744][291]LightingResults:Error: Error Filter Object has wrapping UVs.
+[2014.12.11-20.11.48:744][291]LightingResults:Error: Error Filter Object has overlapping UVs.
+[2014.12.11-20.11.48:744][291]LightingResults: Info Filter Lightmap UV are overlapping by 98.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.49:743][294]LightingResults:Error: Error lathe Object has wrapping UVs.
+[2014.12.11-20.11.49:743][294]LightingResults:Error: Error lathe Object has overlapping UVs.
+[2014.12.11-20.11.49:743][294]LightingResults: Info lathe Lightmap UV are overlapping by 58.3%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.51:743][300]LightingResults:Error: Error vana_defaultrender Object has overlapping UVs.
+[2014.12.11-20.11.51:743][300]LightingResults: Info vana_defaultrender Lightmap UV are overlapping by 86.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.52:409][302]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.52:409][302]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.52:743][303]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.52:743][303]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.53:077][304]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.53:077][304]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.53:743][306]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.53:743][306]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.54:076][307]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.54:077][307]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.55:410][311]LightingResults:Error: Error TrashCan Object has overlapping UVs.
+[2014.12.11-20.11.55:410][311]LightingResults: Info TrashCan Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.57:743][318]LightingResults:Error: Error BossDesk Object has overlapping UVs.
+[2014.12.11-20.11.57:743][318]LightingResults: Info BossDesk Lightmap UV are overlapping by 86.5%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.57:743][318]LightingResults:Error: Error thing Object has wrapping UVs.
+[2014.12.11-20.11.57:743][318]LightingResults:Error: Error thing Object has overlapping UVs.
+[2014.12.11-20.11.57:744][318]LightingResults: Info thing Lightmap UV are overlapping by 98.5%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.58:742][321]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.58:742][321]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.11.59:409][323]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.11.59:409][323]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.08:744][351]LightingResults:Error: Error stairs Object has wrapping UVs.
+[2014.12.11-20.12.08:744][351]LightingResults:Error: Error stairs Object has overlapping UVs.
+[2014.12.11-20.12.08:744][351]LightingResults: Info stairs Lightmap UV are overlapping by 99.7%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.11:076][358]LightingResults:Error: Error officeScene Object has overlapping UVs.
+[2014.12.11-20.12.11:076][358]LightingResults: Info officeScene Lightmap UV are overlapping by 97.7%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.11:410][359]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.12.11:410][359]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.13:076][364]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.12.13:076][364]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.14:076][367]LightingResults:Error: Error barrel Object has overlapping UVs.
+[2014.12.11-20.12.14:076][367]LightingResults: Info barrel Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.21:743][390]LightingResults:Error: Error thing Object has wrapping UVs.
+[2014.12.11-20.12.21:743][390]LightingResults:Error: Error thing Object has overlapping UVs.
+[2014.12.11-20.12.21:743][390]LightingResults: Info thing Lightmap UV are overlapping by 98.5%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.12.22:411][392]LightingResults:Error: Error Filter Object has wrapping UVs.
+[2014.12.11-20.12.22:411][392]LightingResults:Error: Error Filter Object has overlapping UVs.
+[2014.12.11-20.12.22:411][392]LightingResults: Info Filter Lightmap UV are overlapping by 98.8%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.13.01:410][509]LightingResults:Error: Error The_Compound Object has overlapping UVs.
+[2014.12.11-20.13.01:410][509]LightingResults: Info The_Compound Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.13.34:746][609]LightingResults:Error: Error The_Compound Object has overlapping UVs.
+[2014.12.11-20.13.34:746][609]LightingResults: Info The_Compound Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.14.45:080][820]Job is a success!
+[2014.12.11-20.14.45:081][820]LightingResults:Error: Error The_Compound Object has overlapping UVs.
+[2014.12.11-20.14.45:081][820]LightingResults: Info The_Compound Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
+[2014.12.11-20.14.47:251][821]LightingResults:Error: Error PointLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:252][821]LightingResults:Error: Error PointLight13 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:252][821]LightingResults:Error: Error PointLight14 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:252][821]LightingResults:Error: Error PointLight15 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:253][821]LightingResults:Error: Error PointLight16 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:253][821]LightingResults:Error: Error PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:253][821]LightingResults:Error: Error PointLight_17 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:254][821]LightingResults:Error: Error PointLight_19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:254][821]LightingResults:Error: Error PointLight_3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:254][821]LightingResults:Error: Error PointLight_9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:255][821]LightingResults:Error: Error SpotLight_13 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:255][821]LightingResults:Error: Error SpotLight_9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2014.12.11-20.14.47:986][821]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.12.11-20.14.48:419][821]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.12.11-20.14.48:423][821]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.12.11-20.14.48:426][821]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.12.11-20.14.48:431][821]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.12.11-20.14.48:438][821]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.12.11-20.14.48:449][821]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.12.11-20.14.48:461][821]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.12.11-20.14.48:465][821]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.12.11-20.14.48:471][821]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.12.11-20.14.48:476][821]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.12.11-20.14.48:483][821]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.12.11-20.14.48:488][821]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2014.12.11-20.14.48:497][821]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2014.12.11-20.14.48:501][821]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2014.12.11-20.14.48:507][821]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.12.11-20.14.48:514][821]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.12.11-20.14.48:523][821]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.12.11-20.14.48:526][821]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.12.11-20.14.48:533][821]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.12.11-20.14.48:536][821]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.12.11-20.14.48:541][821]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.12.11-20.14.48:546][821]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.12.11-20.14.48:554][821]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.12.11-20.14.48:559][821]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2014.12.11-20.14.48:569][821]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.12.11-20.14.48:573][821]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.12.11-20.14.48:582][821]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.12.11-20.14.48:594][821]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.12.11-20.14.48:622][821]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.12.11-20.14.48:627][821]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.12.11-20.14.48:638][821]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2014.12.11-20.14.48:643][821]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2014.12.11-20.14.48:654][821]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.12.11-20.14.48:666][821]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.12.11-20.14.48:683][821]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.12.11-20.14.48:693][821]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.12.11-20.14.48:719][821]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.12.11-20.14.48:725][821]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.12.11-20.14.48:736][821]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2014.12.11-20.14.48:795][821]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2014.12.11-20.14.48:882][821]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2014.12.11-20.14.48:941][821]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2014.12.11-20.14.49:032][821]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.12.11-20.14.49:065][821]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.12.11-20.14.49:121][821]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.12.11-20.14.49:170][821]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.12.11-20.14.49:258][821]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.12.11-20.14.49:356][821]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.12.11-20.14.49:497][821]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.12.11-20.14.49:599][821]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.12.11-20.14.49:816][821]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.12.11-20.14.50:042][821]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.12.11-20.14.50:498][821]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.12.11-20.14.50:657][821]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.12.11-20.14.51:013][821]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.12.11-20.14.51:212][821]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.12.11-20.14.51:617][821]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.12.11-20.14.51:808][821]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.12.11-20.14.52:238][821]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.12.11-20.14.53:165][821]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.12.11-20.14.54:167][821]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.12.11-20.14.55:176][821]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.12.11-20.14.55:477][821]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.12.11-20.14.55:531][821]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.12.11-20.14.55:550][821]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.12.11-20.14.55:563][821]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.12.11-20.14.55:579][821]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.12.11-20.14.55:594][821]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.12.11-20.14.55:601][821]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.12.11-20.14.55:605][821]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.12.11-20.14.55:611][821]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.12.11-20.14.55:618][821]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.12.11-20.14.55:621][821]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.12.11-20.14.55:624][821]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.12.11-20.14.55:627][821]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.12.11-20.14.55:634][821]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.12.11-20.14.55:636][821]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.12.11-20.14.55:640][821]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.12.11-20.14.55:643][821]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2014.12.11-20.14.55:651][821]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2014.12.11-20.14.55:718][821]Lightmass on JACK: 5:15 min total, 2.45 sec importing, 5.57 sec setup, 9.95 sec photons, 4:57 min processing, 0 ms extra exporting [907/907 mappings]. Threads: 34:44 min total, 18:40 min processing.
+[2014.12.11-20.14.55:848][821]LogStaticLightingSystem:Warning: Illumination: 5:22 min (8.39 sec encoding lightmaps)
+[2014.12.11-20.14.55:848][821]LogStaticLightingSystem: Lightmap texture memory:  9.7 MB (1.7 MB streaming, 8.0 MB non-streaming), 60 textures
+[2014.12.11-20.14.55:848][821]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 21 textures
+[2014.12.11-20.14.55:977][822]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.12.11-20.14.55:977][822]MapCheck: New page: bossofficescenelights - Dec 11, 2014, 6:14:55 AM
+[2014.12.11-20.14.55:997][822]MapCheck:Warning: Performance Warning bossTestRigged_3 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2014.12.11-20.14.55:998][822]MapCheck:Warning: Warning bossTestRigged_3 Skeletal mesh actor has NULL SkeletalMesh property 
+[2014.12.11-20.14.56:235][822]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 257.88ms to complete.
+[2014.12.11-20.15.01:009][861]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/bossofficescenelights.HQ_Lightmap0_10. Streaming mips will be recached.
+[2014.12.11-20.15.01:033][861]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.12.11-20.15.01:130][861]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/bossofficescenelights.HQ_Lightmap0_14. Streaming mips will be recached.
+[2014.12.11-20.15.01:130][861]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.12.11-20.15.01:152][861]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/bossofficescenelights.HQ_Lightmap0_8. Streaming mips will be recached.
+[2014.12.11-20.15.01:153][861]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.12.11-20.15.03:669][ 21]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/bossofficescenelights.HQ_Lightmap0_11. Streaming mips will be recached.
+[2014.12.11-20.15.03:680][ 21]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.12.11-20.15.08:433][283]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/bossofficescenelights.HQ_Lightmap0_17. Streaming mips will be recached.
+[2014.12.11-20.15.08:457][283]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.12.11-20.15.08:537][283]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/bossofficescenelights.HQ_Lightmap0_7. Streaming mips will be recached.
+[2014.12.11-20.15.08:538][283]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.12.11-20.15.11:502][418]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2014.12.11-20.15.11:596][418]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.12.11-20.15.20:401][820]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Sam003_Anim_Take_001)
+[2014.12.11-20.15.24:022][ 32]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.15.24:106][ 36]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Take_001)
+[2014.12.11-20.15.24:450][ 52]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Sam003_Anim_Take_001)
+[2014.12.11-20.15.26:433][160]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.15.27:804][236]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Take_001)
+[2014.12.11-20.15.28:641][280]Cmd: DELETE
+[2014.12.11-20.15.28:641][280]Cmd: ACTOR DELETE
+[2014.12.11-20.15.28:644][280]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2014.12.11-20.15.28:665][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C61590E2A0
+[2014.12.11-20.15.28:666][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C67D25EE80
+[2014.12.11-20.15.28:666][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C616338720
+[2014.12.11-20.15.28:672][280]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2014.12.11-20.15.29:599][341]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.15.30:726][393]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.11-20.15.30:726][393]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.11-20.15.30:958][393]LogPlayLevel: PIE:  Blueprint regeneration took 234 ms (1 blueprints)
+[2014.12.11-20.15.30:969][393]PIE: New page: PIE session: bossofficescenelights (Dec 11, 2014, 6:15:30 AM)
+[2014.12.11-20.15.31:055][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079798s)
+[2014.12.11-20.15.31:056][393]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2014.12.11-20.15.31:056][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/bossofficescenelights.bossofficescenelights to /Game/Maps/UEDPIE_0_bossofficescenelights.bossofficescenelights (0.080925s)
+[2014.12.11-20.15.31:139][393]LogWorld: Game class is 'GameMode'
+[2014.12.11-20.15.31:154][393]LogAIModule: Creating AISystem for world bossofficescenelights
+[2014.12.11-20.15.31:168][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_bossofficescenelights.bossofficescenelights up for play (max tick rate 0) at 2014.12.11-13.15.31
+[2014.12.11-20.15.31:220][393]LogWorld: Bringing up level for play took: 0.066243
+[2014.12.11-20.15.31:290][393]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_bossofficescenelights 1.024
+[2014.12.11-20.15.54:208][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6130ADBC0
+[2014.12.11-20.16.08:110][638]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.16.16:698][122]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.16.22:931][437]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.16.23:026][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (officeScene)
+[2014.12.11-20.16.23:781][482]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.16.46:283][572]LogInit: Transaction tracking system initialized
+[2014.12.11-20.16.46:300][572]EditorErrors: New page: Matinee Initialization
+[2014.12.11-20.16.52:436][763]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor3)
+[2014.12.11-20.16.59:983][995]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor3)
+[2014.12.11-20.17.00:439][ 11]Cmd: DELETE
+[2014.12.11-20.17.00:439][ 11]Cmd: ACTOR DELETE
+[2014.12.11-20.17.00:442][ 11]LogEditorActor: Deleted Actor: CameraActor
+[2014.12.11-20.17.00:515][ 11]LogExit: Transaction tracking system shut down
+[2014.12.11-20.17.00:516][ 11]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2014.12.11-20.17.06:500][367]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2014.12.11-20.17.08:123][461]LogInit: Transaction tracking system initialized
+[2014.12.11-20.17.08:123][461]EditorErrors: New page: Matinee Initialization
+[2014.12.11-20.17.12:403][599]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.17.12:487][600]LogEditorViewport: Clicking on Actor (double click): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.17.12:755][610]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.17.18:183][903]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.17.30:156][511]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.17.35:810][711]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.18.37:149][316]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.18.40:830][485]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.11-20.20.36:417][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (officeScene)
+[2014.12.11-20.20.36:919][881]LogExit: Transaction tracking system shut down
+[2014.12.11-20.20.38:347][881]LogSavePackage: Save=1159.377197ms
+[2014.12.11-20.20.38:347][881]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/bossofficescenelights049CAC784E6C02600AF4D1B28D272EB0.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Maps/bossofficescenelights.umap'
+[2014.12.11-20.20.38:380][881]LogFileHelpers: Saving map 'bossofficescenelights' took 1.428
+[2014.12.11-20.20.39:002][914]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Sam003_Anim_Scenes-028)
+[2014.12.11-20.20.46:019][204]LogSavePackage: Save=1161.733643ms
+[2014.12.11-20.20.46:019][204]LogSavePackage: Moving '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Saved/bossofficescenelights3B2F51EF47BF7C0CB8A9A294A6F86BE7.tmp' to '../../../../../../Work/New folder/CloudFactory/Cloud_Factory_Scene/Content/Maps/bossofficescenelights.umap'
+[2014.12.11-20.20.46:049][204]LogFileHelpers: Saving map 'bossofficescenelights' took 1.381
+[2014.12.11-20.20.48:671][309]Cmd: QUIT_EDITOR
+[2014.12.11-20.20.49:002][309]LogExit: Preparing to exit.
+[2014.12.11-20.20.49:628][309]LogExit: Editor shut down
+[2014.12.11-20.20.49:629][309]LogExit: Transaction tracking system shut down
+[2014.12.11-20.20.49:630][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66D4DDF80
+[2014.12.11-20.20.49:630][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66D4DE0C0
+[2014.12.11-20.20.49:630][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C66D4DDEE0
+[2014.12.11-20.20.49:630][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6705A8FE0
+[2014.12.11-20.20.49:631][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C60A61CA40
+[2014.12.11-20.20.49:818][309]LogExit: Object subsystem successfully closed.
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module DistCurveEditor (168)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module Matinee (167)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.11-20.20.49:900][309]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.11-20.20.49:911][309]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.11-20.20.49:912][309]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.11-20.20.50:020][309]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.11-20.20.50:082][309]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.11-20.20.50:083][309]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.11-20.20.50:083][309]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.11-20.20.50:083][309]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.11-20.20.50:084][309]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.11-20.20.50:185][309]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.11-20.20.50:185][309]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.11-20.20.50:190][309]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.11-20.20.50:191][309]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.11-20.20.50:191][309]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.11-20.20.50:192][309]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.11-20.20.50:280][309]LogDerivedDataCache: Shutdown
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.11-20.20.50:280][309]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.11-20.20.50:282][309]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.11-20.20.50:283][309]LogExit: Exiting.
+[2014.12.11-20.20.50:301][309]Log file closed, 12/11/14 13:20:50
