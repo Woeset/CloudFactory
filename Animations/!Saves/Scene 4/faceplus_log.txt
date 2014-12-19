@@ -1,0 +1,398 @@
+26	Info:	Faceplus 1.1.0.2
+26	Info:	Running on Windows 6.2 (9200)	Service Pack 0.0
+70171	Info:	Client "mobu"
+70171	Info:	Logging in
+72080	Info:	Authenticating...
+72081	Info:	Waiting for response...
+72350	Info:	Status 200
+72541	Info:	Login completed!
+73248	Info:	PLATFORM_NAME: Intel(R) OpenCL
+VERSION: OpenCL 1.2 
+VENDOR: Intel(R) Corporation
+PROFILE: FULL_PROFILE
+	DEVICE:        Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz
+	TYPE: CPU
+	VENDOR ID: 8086 ( Intel(R) Corporation )
+	IMAGE SUPPORT: yes
+	MAX COMPUTE UNITS: 4
+	MAX WORK ITEMS DIMENSIONS: 3
+	MAX WORK GROUP SIZE: 1024
+	MAX WORK ITEMS SIZES: 1024X1024X1024
+	DEVICE VERSION: OpenCL 1.2 (Build 76413)
+	DRIVER VERSION: 3.0.1.10878
+	OPENCL VERSION: 1.2( OpenCL C 1.2  )
+	GLOBAL MEM SIZE: 6010 MB
+	GLOBAL MEM CACHE SIZE: 256 KB
+	CONSTANT BUFFER SIZE:128 KB
+	LOCAL MEM SIZE: 32 KB
+	MEMORY ALIGNMENT: 128
+	MAX CLOCK FREQUENCY: 1800
+	TIMER RESOLUTION: 570
+	PERFORMANCE SCORE: 0.670791
+cl_ext_device_fission, cl_intel_dx9_media_sharing, cl_intel_exec_by_local_thread, cl_intel_printf, cl_khr_byte_addressable_store, cl_khr_d3d11_sharing, cl_khr_dx9_media_sharing, cl_khr_fp64, cl_khr_gl_sharing, cl_khr_global_int32_base_atomics, cl_khr_global_int32_extended_atomics, cl_khr_icd, cl_khr_local_int32_base_atomics, cl_khr_local_int32_extended_atomics, 	DEVICE: Intel(R) HD Graphics 4000
+	TYPE: GPU
+	VENDOR ID: 8086 ( Intel(R) Corporation )
+	IMAGE SUPPORT: yes
+	MAX COMPUTE UNITS: 16
+	MAX WORK ITEMS DIMENSIONS: 3
+	MAX WORK GROUP SIZE: 512
+	MAX WORK ITEMS SIZES: 512X512X512
+	DEVICE VERSION: OpenCL 1.2 
+	DRIVER VERSION: 10.18.10.3379
+	OPENCL VERSION: 1.2( OpenCL C 1.2  )
+	GLOBAL MEM SIZE: 1752 MB
+	GLOBAL MEM CACHE SIZE: 2048 KB
+	CONSTANT BUFFER SIZE:64 KB
+	LOCAL MEM SIZE: 64 KB
+	MEMORY ALIGNMENT: 128
+	MAX CLOCK FREQUENCY: 350
+	TIMER RESOLUTION: 80
+	PERFORMANCE SCORE: 3.65374
+cl_intel_accelerator, cl_intel_dx9_media_sharing, cl_intel_motion_estimation, cl_khr_3d_image_writes, cl_khr_byte_addressable_store, cl_khr_d3d10_sharing, cl_khr_d3d11_sharing, cl_khr_depth_images, cl_khr_dx9_media_sharing, cl_khr_gl_depth_images, cl_khr_gl_event, cl_khr_gl_msaa_sharing, cl_khr_gl_sharing, cl_khr_global_int32_base_atomics, cl_khr_global_int32_extended_atomics, cl_khr_icd, cl_khr_image2d_from_buffer, cl_khr_local_int32_base_atomics, cl_khr_local_int32_extended_atomics, 
+73255	Info:	Running on device determined by GL context
+	DEVICE: Intel(R) HD Graphics 4000
+	TYPE: GPU
+	VENDOR ID: 8086 ( Intel(R) Corporation )
+	IMAGE SUPPORT: yes
+	MAX COMPUTE UNITS: 16
+	MAX WORK ITEMS DIMENSIONS: 3
+	MAX WORK GROUP SIZE: 512
+	MAX WORK ITEMS SIZES: 512X512X512
+	DEVICE VERSION: OpenCL 1.2 
+	DRIVER VERSION: 10.18.10.3379
+	OPENCL VERSION: 1.2( OpenCL C 1.2  )
+	GLOBAL MEM SIZE: 1752 MB
+	GLOBAL MEM CACHE SIZE: 2048 KB
+	CONSTANT BUFFER SIZE:64 KB
+	LOCAL MEM SIZE: 64 KB
+	MEMORY ALIGNMENT: 128
+	MAX CLOCK FREQUENCY: 350
+	TIMER RESOLUTION: 80
+	PERFORMANCE SCORE: 3.65374
+cl_intel_accelerator, cl_intel_dx9_media_sharing, cl_intel_motion_estimation, cl_khr_3d_image_writes, cl_khr_byte_addressable_store, cl_khr_d3d10_sharing, cl_khr_d3d11_sharing, cl_khr_depth_images, cl_khr_dx9_media_sharing, cl_khr_gl_depth_images, cl_khr_gl_event, cl_khr_gl_msaa_sharing, cl_khr_gl_sharing, cl_khr_global_int32_base_atomics, cl_khr_global_int32_extended_atomics, cl_khr_icd, cl_khr_image2d_from_buffer, cl_khr_local_int32_base_atomics, cl_khr_local_int32_extended_atomics, 
+73261	Info:	Opening "Integrated Webcam" at resolution 640X480
+73263	Info:	Online tracking
+74624	Info:	Face Not Detected
+75145	Info:	Face Not Detected
+75831	Info:	Face Detected @0.53775,0.682232
+76008	Info:	Face Detected @0.540008,0.682834
+76184	Info:	Face Detected @0.540707,0.682091
+76353	Info:	Face Detected @0.540778,0.681855
+76527	Info:	Face Detected @0.54094,0.681567
+76702	Info:	Face Detected @0.541019,0.681216
+76867	Info:	Face Detected @0.541826,0.677293
+77054	Info:	Face Detected @0.544826,0.674542
+77259	Info:	Face Detected @0.552973,0.665951
+77471	Info:	Face Detected @0.565516,0.639129
+77677	Info:	Face Detected @0.572682,0.588035
+77918	Info:	Face Detected @0.558887,0.558725
+78162	Info:	Face Detected @0.57328,0.510226
+78944	Info:	Face Detected @0.541274,0.40783
+79222	Info:	Face Detected @0.546282,0.46709
+79439	Info:	Face Detected @0.531425,0.449889
+79687	Info:	Face Detected @0.525116,0.486356
+79895	Info:	Face Detected @0.536161,0.496736
+80132	Info:	Face Detected @0.539637,0.490427
+80336	Info:	Face Detected @0.53665,0.490128
+80548	Info:	Face Detected @0.539518,0.48606
+80783	Info:	Face Detected @0.54068,0.479524
+81033	Info:	Face Detected @0.544537,0.480053
+81252	Info:	Face Detected @0.545156,0.482502
+81487	Info:	Face Detected @0.546519,0.481677
+81716	Info:	Face Detected @0.54757,0.481399
+81938	Info:	Face Detected @0.548547,0.480263
+82150	Info:	Face Detected @0.550357,0.480265
+82360	Info:	Face Detected @0.552308,0.480701
+82597	Info:	Face Detected @0.554386,0.481043
+82801	Info:	Face Detected @0.553273,0.478731
+83055	Info:	Face Detected @0.55334,0.468067
+83327	Info:	Face Detected @0.539736,0.43694
+83565	Info:	Face Detected @0.539952,0.405898
+83824	Info:	Face Detected @0.561025,0.397547
+84030	Info:	Face Detected @0.58715,0.406929
+84278	Info:	Face Detected @0.559801,0.445933
+84484	Info:	Face Detected @0.553596,0.499382
+84712	Info:	Face Detected @0.566846,0.568655
+84967	Info:	Face Detected @0.585289,0.50198
+85204	Info:	Face Detected @0.573538,0.492203
+85425	Info:	Face Detected @0.573091,0.513414
+85628	Info:	Face Detected @0.587582,0.516044
+85827	Info:	Face Detected @0.588879,0.522529
+86046	Info:	Face Detected @0.594673,0.5301
+86259	Info:	Face Detected @0.593898,0.531045
+86458	Info:	Face Detected @0.593915,0.53485
+86691	Info:	Face Detected @0.593697,0.536284
+86917	Info:	Face Detected @0.59494,0.536158
+87125	Info:	Face Detected @0.594301,0.536465
+87349	Info:	Face Detected @0.592557,0.542328
+87594	Info:	Face Detected @0.590035,0.543892
+87844	Info:	Face Detected @0.589366,0.545049
+88086	Info:	Face Detected @0.590477,0.547926
+88317	Info:	Face Detected @0.589113,0.550715
+88553	Info:	Face Detected @0.586135,0.552554
+88794	Info:	Face Detected @0.58386,0.553012
+89011	Info:	Face Detected @0.583662,0.553169
+89224	Info:	Face Detected @0.583381,0.553339
+89444	Info:	Face Detected @0.583377,0.553635
+89662	Info:	Face Detected @0.583357,0.553466
+89874	Info:	Face Detected @0.582972,0.553565
+90080	Info:	Face Detected @0.582759,0.553464
+90296	Info:	Face Detected @0.583516,0.550985
+90534	Info:	Face Detected @0.583864,0.550171
+90807	Info:	Face Detected @0.582864,0.549783
+91014	Info:	Face Detected @0.5826,0.550675
+91285	Info:	Face Detected @0.581953,0.552523
+91522	Info:	Face Detected @0.581567,0.552821
+91778	Info:	Face Detected @0.580617,0.553475
+92010	Info:	Face Detected @0.579906,0.554866
+92231	Info:	Face Detected @0.580104,0.555316
+92432	Info:	Face Detected @0.579299,0.555312
+92629	Info:	Face Detected @0.578652,0.555544
+92830	Info:	Face Detected @0.578701,0.555393
+93036	Info:	Face Detected @0.579196,0.555306
+93270	Info:	Face Detected @0.577957,0.554767
+93481	Info:	Face Detected @0.577549,0.55496
+93676	Info:	Face Detected @0.577573,0.554965
+93874	Info:	Face Detected @0.577901,0.554925
+94082	Info:	Face Detected @0.576458,0.55451
+94284	Info:	Face Detected @0.575767,0.5548
+94478	Info:	Face Detected @0.575387,0.555362
+94695	Info:	Face Detected @0.575873,0.555655
+94900	Info:	Face Detected @0.575477,0.556223
+95152	Info:	Face Detected @0.575962,0.556918
+95407	Info:	Face Detected @0.574997,0.557046
+95619	Info:	Face Detected @0.573172,0.55617
+95797	Info:	Face Detected @0.573187,0.555174
+96019	Info:	Face Detected @0.573867,0.55586
+96242	Info:	Face Detected @0.574498,0.556824
+96470	Info:	Face Detected @0.574355,0.55716
+96700	Info:	Face Detected @0.574518,0.558352
+96916	Info:	Face Detected @0.57517,0.557609
+97116	Info:	Face Detected @0.575394,0.55649
+97334	Info:	Face Detected @0.574916,0.556763
+97557	Info:	Face Detected @0.574973,0.556899
+97779	Info:	Face Detected @0.574953,0.559115
+97993	Info:	Face Detected @0.5746,0.560144
+98244	Info:	Face Detected @0.573302,0.560667
+98462	Info:	Face Detected @0.572818,0.562461
+98679	Info:	Face Detected @0.57276,0.562037
+98896	Info:	Face Detected @0.572657,0.561692
+99079	Info:	Face Detected @0.571854,0.560936
+99280	Info:	Face Detected @0.572434,0.561275
+99509	Info:	Face Detected @0.572461,0.56147
+99727	Info:	Face Detected @0.572992,0.561282
+99950	Info:	Face Detected @0.573434,0.561574
+100216	Info:	Face Detected @0.573548,0.561793
+100463	Info:	Face Detected @0.573612,0.562169
+100676	Info:	Face Detected @0.574693,0.562156
+100872	Info:	Face Detected @0.574689,0.562216
+101102	Info:	Face Detected @0.574057,0.563257
+101296	Info:	Face Detected @0.573177,0.563447
+101521	Info:	Face Detected @0.573691,0.564191
+101743	Info:	Face Detected @0.573293,0.564162
+101961	Info:	Face Detected @0.57287,0.563777
+102161	Info:	Face Detected @0.572924,0.56381
+102364	Info:	Face Detected @0.572962,0.563855
+102606	Info:	Face Detected @0.573171,0.563915
+102795	Info:	Face Detected @0.572202,0.563669
+103021	Info:	Face Detected @0.572037,0.564007
+103283	Info:	Face Detected @0.57201,0.564223
+103494	Info:	Face Detected @0.573024,0.564307
+103710	Info:	Face Detected @0.573076,0.564116
+103933	Info:	Face Detected @0.572911,0.564241
+104150	Info:	Face Detected @0.571646,0.564859
+104350	Info:	Face Detected @0.571213,0.565208
+104590	Info:	Face Detected @0.569254,0.563865
+104810	Info:	Face Detected @0.567655,0.563299
+105037	Info:	Face Detected @0.567,0.562675
+105288	Info:	Face Detected @0.568365,0.564637
+105498	Info:	Face Detected @0.567875,0.564568
+105741	Info:	Face Detected @0.567507,0.564761
+105975	Info:	Face Detected @0.567337,0.56534
+106178	Info:	Face Detected @0.567844,0.56498
+106434	Info:	Face Detected @0.566798,0.561986
+106650	Info:	Face Detected @0.566644,0.562223
+106917	Info:	Face Detected @0.56652,0.562726
+107123	Info:	Face Detected @0.566355,0.563172
+107363	Info:	Face Detected @0.565313,0.56332
+107583	Info:	Face Detected @0.562655,0.564538
+107785	Info:	Face Detected @0.562315,0.565608
+108024	Info:	Face Detected @0.562965,0.56763
+108266	Info:	Face Detected @0.564109,0.563502
+108500	Info:	Face Detected @0.564448,0.556302
+108726	Info:	Face Detected @0.564339,0.552041
+108934	Info:	Face Detected @0.564891,0.555498
+109145	Info:	Face Detected @0.564683,0.555359
+109352	Info:	Face Detected @0.563887,0.555372
+109550	Info:	Face Detected @0.562846,0.555236
+109770	Info:	Face Detected @0.561977,0.555159
+109976	Info:	Face Detected @0.560958,0.554955
+110177	Info:	Face Detected @0.559583,0.555127
+110391	Info:	Face Detected @0.55744,0.557023
+110600	Info:	Face Detected @0.556847,0.557601
+110783	Info:	Face Detected @0.55669,0.557574
+111010	Info:	Face Detected @0.558328,0.560556
+111207	Info:	Face Detected @0.561168,0.566451
+111448	Info:	Face Detected @0.561618,0.570283
+111677	Info:	Face Detected @0.565146,0.593454
+111912	Info:	Face Detected @0.56202,0.581792
+112181	Info:	Face Detected @0.557294,0.575052
+112390	Info:	Face Detected @0.552248,0.570455
+112621	Info:	Face Detected @0.549912,0.568385
+112830	Info:	Face Detected @0.549475,0.566859
+113071	Info:	Face Detected @0.551849,0.564676
+113291	Info:	Face Detected @0.553092,0.564282
+113501	Info:	Face Detected @0.553668,0.564564
+113709	Info:	Face Detected @0.554381,0.56459
+113922	Info:	Face Detected @0.557027,0.564008
+114148	Info:	Face Detected @0.557975,0.56349
+114383	Info:	Face Detected @0.557942,0.563486
+114580	Info:	Face Detected @0.557883,0.563556
+114797	Info:	Face Detected @0.55973,0.563696
+114980	Info:	Face Detected @0.561577,0.563554
+115188	Info:	Face Detected @0.561879,0.563667
+115383	Info:	Face Detected @0.562201,0.563097
+115594	Info:	Face Detected @0.561559,0.562685
+115828	Info:	Face Detected @0.560476,0.564187
+116034	Info:	Face Detected @0.56191,0.564749
+116258	Info:	Face Detected @0.564296,0.566373
+116466	Info:	Face Detected @0.563869,0.567677
+116681	Info:	Face Detected @0.563441,0.567568
+116933	Info:	Face Detected @0.564651,0.564377
+117144	Info:	Face Detected @0.56649,0.567636
+117348	Info:	Face Detected @0.565769,0.56491
+117518	Info:	Face Detected @0.565628,0.564365
+117693	Info:	Face Detected @0.565692,0.564139
+117896	Info:	Face Detected @0.564739,0.563175
+118073	Info:	Face Detected @0.565251,0.56301
+118244	Info:	Face Detected @0.564846,0.562054
+118427	Info:	Face Detected @0.564855,0.562051
+118609	Info:	Face Detected @0.565138,0.561918
+118797	Info:	Face Detected @0.564999,0.561947
+118987	Info:	Face Detected @0.562277,0.562526
+119165	Info:	Face Detected @0.561967,0.562919
+119381	Info:	Face Detected @0.561336,0.563557
+119568	Info:	Face Detected @0.560617,0.562414
+119747	Info:	Face Detected @0.560926,0.562002
+119923	Info:	Face Detected @0.560596,0.562277
+120109	Info:	Face Detected @0.558224,0.566965
+120301	Info:	Face Detected @0.55578,0.57153
+120468	Info:	Face Detected @0.557421,0.577902
+120646	Info:	Face Detected @0.555073,0.578914
+120821	Info:	Face Detected @0.550832,0.579723
+120993	Info:	Face Detected @0.545186,0.580356
+121193	Info:	Face Detected @0.529815,0.585854
+121394	Info:	Face Detected @0.544706,0.581163
+121616	Info:	Face Detected @0.54187,0.575729
+121810	Info:	Face Detected @0.533472,0.572207
+121994	Info:	Face Detected @0.53415,0.574881
+122205	Info:	Face Detected @0.53484,0.582038
+122430	Info:	Face Detected @0.532833,0.581092
+122642	Info:	Face Detected @0.532187,0.584373
+122851	Info:	Face Detected @0.551129,0.583923
+123076	Info:	Face Detected @0.551977,0.582471
+123281	Info:	Face Detected @0.552316,0.581964
+123514	Info:	Face Detected @0.553786,0.583809
+123757	Info:	Face Detected @0.553418,0.585203
+123958	Info:	Face Detected @0.553514,0.585197
+124171	Info:	Face Detected @0.55038,0.584754
+124380	Info:	Face Detected @0.549145,0.582343
+124574	Info:	Face Detected @0.551823,0.579503
+124772	Info:	Face Detected @0.556217,0.574805
+124951	Info:	Face Detected @0.569324,0.572056
+125145	Info:	Face Detected @0.584879,0.573395
+125341	Info:	Face Detected @0.586039,0.573545
+125539	Info:	Face Detected @0.581058,0.579735
+125741	Info:	Face Detected @0.580441,0.580568
+125934	Info:	Face Detected @0.580928,0.582388
+126132	Info:	Face Detected @0.579026,0.584087
+126309	Info:	Face Detected @0.576636,0.585082
+126497	Info:	Face Detected @0.573876,0.586519
+126742	Info:	Face Detected @0.574824,0.584711
+126957	Info:	Face Detected @0.579278,0.580383
+127163	Info:	Face Detected @0.566409,0.578898
+127365	Info:	Face Detected @0.57026,0.559108
+127572	Info:	Face Detected @0.550838,0.567225
+127755	Info:	Face Detected @0.544916,0.56936
+127963	Info:	Face Detected @0.542067,0.553067
+128169	Info:	Face Detected @0.546293,0.553736
+128391	Info:	Face Detected @0.539994,0.55782
+128598	Info:	Face Detected @0.541049,0.56124
+128776	Info:	Face Detected @0.545839,0.569038
+128945	Info:	Face Detected @0.547657,0.573616
+129160	Info:	Face Detected @0.548064,0.57329
+129353	Info:	Face Detected @0.548235,0.573074
+129567	Info:	Face Detected @0.547685,0.572215
+129787	Info:	Face Detected @0.548105,0.571492
+129996	Info:	Face Detected @0.548172,0.570887
+130190	Info:	Face Detected @0.549931,0.570375
+130393	Info:	Face Detected @0.549234,0.56821
+130657	Info:	Face Detected @0.526292,0.563915
+130916	Info:	Face Detected @0.52065,0.564545
+131127	Info:	Face Detected @0.520417,0.565334
+131319	Info:	Face Detected @0.519108,0.565699
+131545	Info:	Face Detected @0.517219,0.56662
+131785	Info:	Face Detected @0.516294,0.567718
+131995	Info:	Face Detected @0.516765,0.567774
+132205	Info:	Face Detected @0.516712,0.567776
+132413	Info:	Face Detected @0.516649,0.568075
+132617	Info:	Face Detected @0.516513,0.569297
+132794	Info:	Face Detected @0.516393,0.569265
+133002	Info:	Face Detected @0.515424,0.568745
+133188	Info:	Face Detected @0.516274,0.56986
+133360	Info:	Face Detected @0.520613,0.571159
+133532	Info:	Face Detected @0.52186,0.571921
+133738	Info:	Face Detected @0.523126,0.572467
+133906	Info:	Face Detected @0.522966,0.572244
+134093	Info:	Face Detected @0.525379,0.571542
+134282	Info:	Face Detected @0.529099,0.571736
+134480	Info:	Face Detected @0.529118,0.57145
+134660	Info:	Face Detected @0.530311,0.569637
+134853	Info:	Face Detected @0.531963,0.56974
+135039	Info:	Face Detected @0.532063,0.569721
+135206	Info:	Face Detected @0.532124,0.570068
+135378	Info:	Face Detected @0.531622,0.571203
+135555	Info:	Face Detected @0.529269,0.571655
+135706	Info:	Face Detected @0.527921,0.572872
+135863	Info:	Face Detected @0.528162,0.573171
+136035	Info:	Face Detected @0.528191,0.573047
+136191	Info:	Face Detected @0.527939,0.572051
+136348	Info:	Face Detected @0.52773,0.572104
+136502	Info:	Face Detected @0.527641,0.571832
+136654	Info:	Face Detected @0.528557,0.571778
+136822	Info:	Face Detected @0.529206,0.571644
+136987	Info:	Face Detected @0.529179,0.571161
+137159	Info:	Face Detected @0.530068,0.570869
+137369	Info:	Face Detected @0.530157,0.57131
+137575	Info:	Face Detected @0.530307,0.570948
+137776	Info:	Face Detected @0.530219,0.570851
+137966	Info:	Face Detected @0.529934,0.571099
+138172	Info:	Face Detected @0.52998,0.571211
+138356	Info:	Face Detected @0.531337,0.568988
+138540	Info:	Face Detected @0.533875,0.568051
+138761	Info:	Face Detected @0.541836,0.568813
+138978	Info:	Face Detected @0.547779,0.56774
+139206	Info:	Face Detected @0.55073,0.568701
+139420	Info:	Face Detected @0.551569,0.569249
+139618	Info:	Face Detected @0.551794,0.570002
+139793	Info:	Face Detected @0.551647,0.569048
+139960	Info:	Face Detected @0.55165,0.569058
+140144	Info:	Face Detected @0.549498,0.567972
+140340	Info:	Face Detected @0.549501,0.567921
+140539	Info:	Face Detected @0.549457,0.567856
+140731	Info:	Face Detected @0.550534,0.566984
+140930	Info:	Face Detected @0.551272,0.56564
+141126	Info:	Face Detected @0.550896,0.565646
+141325	Info:	Face Detected @0.548977,0.562901
+141535	Info:	Face Detected @0.547805,0.560796
+141747	Info:	Face Detected @0.547479,0.560392
+141946	Info:	Face Detected @0.548701,0.557839
+142156	Info:	Face Detected @0.552103,0.553192
+142388	Info:	Face Detected @0.546032,0.510553
+142633	Info:	Face Detected @0.551369,0.481472
+142841	Info:	Face Detected @0.543273,0.55439
+143062	Info:	Face Detected @0.558798,0.574819
+143281	Info:	Face Detected @0.573987,0.576484
+143552	Info:	Face Detected @0.57481,0.544705
+143792	Info:	Face Detected @0.565461,0.542493
+144056	Info:	Face Detected @0.567451,0.533681
