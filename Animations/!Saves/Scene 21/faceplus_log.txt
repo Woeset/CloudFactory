@@ -1048,3 +1048,15 @@ cl_intel_accelerator, cl_intel_dx9_media_sharing, cl_intel_motion_estimation, cl
 202711	Info:	Face Detected @0.337317,0.715141
 202840	Info:	Face Detected @0.349627,0.706414
 202971	Info:	Face Detected @0.356612,0.708853
+203591	Info:	Face Detected @0.363665,0.710797
+204191	Info:	Face Detected @0.38289,0.701091
+204847	Info:	Face Detected @0.318714,0.717393
+205441	Info:	Face Detected @0.317878,0.719227
+206016	Info:	Face Detected @0.321488,0.72487
+206596	Info:	Face Detected @0.325396,0.727799
+207201	Info:	Face Detected @0.307358,0.72296
+207351	Info:	Face Detected @0.36433,0.721605
+207511	Info:	Face Detected @0.335647,0.723529
+207668	Info:	Face Detected @0.314852,0.727525
+207837	Info:	Face Detected @0.302679,0.727682
+208001	Info:	Logger suspended
